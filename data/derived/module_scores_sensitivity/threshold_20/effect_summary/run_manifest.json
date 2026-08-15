@@ -1,0 +1,125 @@
+{
+  "all_effects_confirmatory_eligible": false,
+  "authoritative_default_summary": false,
+  "contrast_specification": [
+    {
+      "analysis_role": "exploratory_effect_size_and_stability_only",
+      "cohort_id": "GSE230809_discovery",
+      "cohort_role": "exploratory_discovery_parent_project",
+      "comparison_label": "healthy_low_grade",
+      "comparison_value": "healthy",
+      "compartment": "AF",
+      "confirmatory_eligible": "false",
+      "contrast_label": "advanced_degeneration_associated_minus_healthy_low_grade",
+      "dataset_values": "GSE229711;GSE230808",
+      "group_column": "disease_state",
+      "inference_key_type": "donor_id",
+      "notes": "One parent project; age and disease status are fully confounded and healthy AF has n=3. Retained-cell threshold sensitivity only; donor/library is the inference unit.",
+      "score_files": "data/derived/module_scores_sensitivity/threshold_20/GSE229711/GSE229711_RAW_module_scores.csv;data/derived/module_scores_sensitivity/threshold_20/GSE230808/GSE230808_RAW_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "advanced_degeneration_associated",
+      "target_value": "diseased"
+    },
+    {
+      "analysis_role": "exploratory_effect_size_and_stability_only",
+      "cohort_id": "GSE230809_discovery",
+      "cohort_role": "exploratory_discovery_parent_project",
+      "comparison_label": "healthy_low_grade",
+      "comparison_value": "healthy",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "advanced_degeneration_associated_minus_healthy_low_grade",
+      "dataset_values": "GSE229711;GSE230808",
+      "group_column": "disease_state",
+      "inference_key_type": "donor_id",
+      "notes": "One parent project; age and disease status are fully confounded and healthy NP has n=3. Retained-cell threshold sensitivity only; donor/library is the inference unit.",
+      "score_files": "data/derived/module_scores_sensitivity/threshold_20/GSE229711/GSE229711_RAW_module_scores.csv;data/derived/module_scores_sensitivity/threshold_20/GSE230808/GSE230808_RAW_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "advanced_degeneration_associated",
+      "target_value": "diseased"
+    }
+  ],
+  "default_authoritative_result_directory": "data/derived/donor_module_effect_summary/",
+  "excluded_separate_exploratory_package": {
+    "cohort_id": "GSE251686_exploratory",
+    "reason": "A separate mild n=2 versus severe n=3 exploratory score/effect package exists, but it is intentionally excluded from this summary and is not confirmatory evidence.",
+    "score_package": "data/derived/GSE251686_exploratory_scores/"
+  },
+  "generated_artifact_sha256": {
+    "README.md": "f12107239ccee497ae896ae2131e7937c5367fc4e13173a9633555ac0974b993",
+    "cross_cohort_direction_consistency.csv": "db48f93776cfc66b975f05f569c9e9e8af9b3a6c41b340f88149f3a92defc04b",
+    "donor_module_effects.csv": "577a4b657aa47472092799b12f6ba8e178c297389f040c2951a07518e431c559",
+    "donor_module_group_descriptives.csv": "0134cc38146a4afe515f3a37b68bb086f7e91c83dbfc70b9467953ce93225c40",
+    "donor_module_leave_one_out.csv": "aad47be64411016a2e27078a6728ee7455fc7ccfcee51dfe56779894d9021287",
+    "resolved_contrast_spec.csv": "4f632ad1868e61d29df3c2d4a44be01cc19b40fb362dc33730c83c4c08a5cc1c",
+    "run_parameters.csv": "31fd27565c1cd558340dbf8f4a1740e46c2f6e7468d51a17801de9bf40e6855e",
+    "score_ingestion_audit.csv": "e60bdfa0d85fb27ff5e69fe1c801a2d56e845e03aa3c9b74202ad6bb7da7f686"
+  },
+  "generated_at_utc": "2026-08-14T08:48:29.705190+00:00",
+  "input_parameter_rows": [
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_sensitivity\\threshold_20\\GSE229711\\GSE229711_RAW_module_scores.csv",
+      "sha256": "6b51d904d68434266df35ef6e58c850387f5f7eb38239489b53263dd4b90654a"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_sensitivity\\threshold_20\\GSE230808\\GSE230808_RAW_module_scores.csv",
+      "sha256": "0a6575f7948a0b1c74a16fcf5e9a128cab9332a032b8e692b0195b2b0fa03335"
+    },
+    {
+      "notes": "Exact implementation used to create this summary directory.",
+      "parameter_class": "analysis_script",
+      "parameter_name": "summarize_donor_module_effects.py",
+      "parameter_value": ".\\scripts\\summarize_donor_module_effects.py",
+      "sha256": "f3f71b88e2ac67a80181bda5af68b5788ff742d5583d4b2e13c1cf548806e4f4"
+    },
+    {
+      "notes": "This is a custom descriptive sensitivity/audit summary. It must not be substituted for data/derived/donor_module_effect_summary/.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "summary_contract",
+      "parameter_value": "custom_sensitivity",
+      "sha256": ""
+    },
+    {
+      "notes": "Used for Welch and percentile bootstrap intervals.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "confidence_level",
+      "parameter_value": "0.95000000",
+      "sha256": ""
+    },
+    {
+      "notes": "Independent resampling within donor/library contrast arms.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "bootstrap_replicates",
+      "parameter_value": "10000",
+      "sha256": ""
+    },
+    {
+      "notes": "Cohort/compartment/module-specific deterministic seeds are derived from this root seed.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "random_seed",
+      "parameter_value": "20260814",
+      "sha256": ""
+    },
+    {
+      "notes": "Score rows below this pre-specified module mapping threshold are excluded with an audit row.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "min_mapped_fraction",
+      "parameter_value": "0.80000000",
+      "sha256": ""
+    }
+  ],
+  "no_p_values_or_multiple_testing_adjustment": true,
+  "result_contract": "custom_non_authoritative_descriptive_summary",
+  "result_directory": ".\\data\\derived\\module_scores_sensitivity\\threshold_20\\effect_summary",
+  "schema_version": 1,
+  "summary_cohort_ids": [
+    "GSE230809_discovery"
+  ],
+  "summary_effect_count": 8
+}
