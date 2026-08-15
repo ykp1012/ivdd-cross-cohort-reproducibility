@@ -1,0 +1,6 @@
+dataset,gsm,presumed_sample_library_key,compartment,severity_group,pre_qc_cells,qc_passing_cells,source_restricted_cells,source_restricted_threshold_20_pass,source_restricted_threshold_30_pass,source_restricted_threshold_50_pass,selected_umi,stream_integrity_pass,identifier_audit_pass,duplicate_gene_symbol_rows,analysis_role,confirmatory_eligible
+GSE251686,GSM7986001,GSM7986001,NP,mild,15448,15287,15207,True,True,True,72931025,true,true,0,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986003,GSM7986003,NP,mild,5932,5916,5905,True,True,True,49182514,true,true,0,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986004,GSM7986004,NP,severe,7356,7009,5673,True,True,True,59253285,true,true,0,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986005,GSM7986005,NP,severe,2433,2428,2421,True,True,True,11586351,true,true,0,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986006,GSM7986006,NP,severe,7995,6446,2838,True,True,True,16969754,true,true,1523,incomplete non-balanced exploratory NP severity direction check only,false

@@ -1,0 +1,21 @@
+dataset,gsm,presumed_sample_library_key,compartment,severity_group,module_id,module_score_log1p_cpm,score_status,mapped_fraction,included_cells,total_umi_included_cells,analysis_role,confirmatory_eligible
+GSE251686,GSM7986001,GSM7986001,NP,mild,ecm_collagen_remodeling,5.44421571,score_available,1.000000,15207,72931025,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986001,GSM7986001,NP,mild,inflammatory_nfkb,2.72491637,score_available,1.000000,15207,72931025,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986001,GSM7986001,NP,mild,hypoxia_oxidative_stress,4.82140605,score_available,1.000000,15207,72931025,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986001,GSM7986001,NP,mild,disc_matrix_homeostasis,5.42899355,score_available,0.933333,15207,72931025,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986003,GSM7986003,NP,mild,ecm_collagen_remodeling,5.17709309,score_available,1.000000,5905,49182514,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986003,GSM7986003,NP,mild,inflammatory_nfkb,3.11634281,score_available,0.904762,5905,49182514,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986003,GSM7986003,NP,mild,hypoxia_oxidative_stress,5.17674839,score_available,1.000000,5905,49182514,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986003,GSM7986003,NP,mild,disc_matrix_homeostasis,5.88672898,score_available,0.933333,5905,49182514,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986004,GSM7986004,NP,severe,ecm_collagen_remodeling,6.87991042,score_available,1.000000,5673,59253285,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986004,GSM7986004,NP,severe,inflammatory_nfkb,2.90640950,score_available,1.000000,5673,59253285,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986004,GSM7986004,NP,severe,hypoxia_oxidative_stress,5.02415587,score_available,1.000000,5673,59253285,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986004,GSM7986004,NP,severe,disc_matrix_homeostasis,5.86264253,score_available,0.933333,5673,59253285,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986005,GSM7986005,NP,severe,ecm_collagen_remodeling,6.08777246,score_available,0.875000,2421,11586351,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986005,GSM7986005,NP,severe,inflammatory_nfkb,2.77830964,score_available,0.809524,2421,11586351,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986005,GSM7986005,NP,severe,hypoxia_oxidative_stress,4.84409642,score_available,1.000000,2421,11586351,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986005,GSM7986005,NP,severe,disc_matrix_homeostasis,5.91223743,score_available,0.933333,2421,11586351,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986006,GSM7986006,NP,severe,ecm_collagen_remodeling,6.87576862,score_available,1.000000,2838,16969754,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986006,GSM7986006,NP,severe,inflammatory_nfkb,2.99289940,score_available,1.000000,2838,16969754,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986006,GSM7986006,NP,severe,hypoxia_oxidative_stress,4.89565154,score_available,1.000000,2838,16969754,incomplete non-balanced exploratory NP severity direction check only,false
+GSE251686,GSM7986006,GSM7986006,NP,severe,disc_matrix_homeostasis,5.63230414,score_available,1.000000,2838,16969754,incomplete non-balanced exploratory NP severity direction check only,false

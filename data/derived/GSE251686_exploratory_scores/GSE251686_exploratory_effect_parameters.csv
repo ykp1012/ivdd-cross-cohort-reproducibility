@@ -1,0 +1,10 @@
+parameter_class,parameter_name,parameter_value,sha256,notes
+score_input,GSE251686_exploratory_module_scores.csv,.\data\derived\GSE251686_exploratory_scores\GSE251686_exploratory_module_scores.csv,ca811faf9514f87d664e59a68b7ba5f43d0e3d0598907066c5404c1c847808a9,Exact separate exploratory score table; not a default-summary input.
+score_input,GSE251686_exploratory_library_ledger.csv,.\data\derived\GSE251686_exploratory_scores\GSE251686_exploratory_library_ledger.csv,6a7268d6b01b4994360e188dd18eaff32d23fcb4e4524c6606df5ad991b2a3ea,Hard-gated presumed sample/library key and retained-cell ledger.
+score_input,GSE251686_exploratory_score_parameters.csv,.\data\derived\GSE251686_exploratory_scores\GSE251686_exploratory_score_parameters.csv,b91b659c91ebbbc7b1f272582c4f087be596520974ed41fa29d2ff57f160bb4d,"Locked scorer inputs, permanent exclusion, and scoring boundary."
+analysis_script,summarize_gse251686_exploratory.py,.\scripts\summarize_gse251686_exploratory.py,71ee96741c437942865d898d64c3fa61ae8886fd914e6dfe2900bd8888a77aa6,Exact implementation for this isolated descriptive effect display.
+analysis_setting,confidence_level,0.95000000,,Descriptive Welch and percentile bootstrap interval level.
+analysis_setting,bootstrap_replicates,10000,,Independent resampling within mild and severe presumed-key arms.
+analysis_setting,random_seed,20260814,,Module-specific deterministic seeds are derived from this root seed.
+analysis_setting,min_mapped_fraction,0.80000000,,Must match the locked scorer threshold.
+analysis_boundary,default_summary_inclusion,false,,This directory is excluded from the default 20-effect cross-cohort summary.

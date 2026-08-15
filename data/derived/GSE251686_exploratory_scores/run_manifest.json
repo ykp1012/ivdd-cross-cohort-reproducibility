@@ -1,0 +1,22 @@
+{
+  "analysis_scope": "GSE251686 isolated mild n=2 versus severe n=3 exploratory display",
+  "default_cross_cohort_summary_inclusion": false,
+  "generated_artifact_sha256": {
+    "GSE251686_exploratory_effect_parameters.csv": "d5843035b566e3be87ce0d8af36ee454439f21329a6cbb7d8d36d37f815e3761",
+    "GSE251686_exploratory_group_descriptives.csv": "a5750a0a53caa5d7cd23b712bab94b6b2663ce674f14f79f6c8f2234bad64e5c",
+    "GSE251686_exploratory_module_effects.csv": "0c11335a43229cd1fdfb3fcff8da53bed58052e8e6142ba27b45dcb9fdddac92",
+    "GSE251686_exploratory_module_leave_one_out.csv": "e5661757a1f945f9835b1d4364b7f4d00df33838b7bd7b196e6798ce6da5ed42",
+    "README.md": "7bf825676bd701e7f045a3e0c155995068f66770fdb43e598c4bf6c088a9a6d3"
+  },
+  "generated_at_utc": "2026-08-13T22:05:29.951720+00:00",
+  "input_sha256": {
+    "GSE251686_exploratory_library_ledger.csv": "6a7268d6b01b4994360e188dd18eaff32d23fcb4e4524c6606df5ad991b2a3ea",
+    "GSE251686_exploratory_module_scores.csv": "ca811faf9514f87d664e59a68b7ba5f43d0e3d0598907066c5404c1c847808a9",
+    "GSE251686_exploratory_score_parameters.csv": "b91b659c91ebbbc7b1f272582c4f087be596520974ed41fa29d2ff57f160bb4d",
+    "summarize_gse251686_exploratory.py": "71ee96741c437942865d898d64c3fa61ae8886fd914e6dfe2900bd8888a77aa6"
+  },
+  "no_hypothesis_tests_or_p_values": true,
+  "permanent_exclusion": "GSM7986002",
+  "schema_version": 1,
+  "unit_of_observation": "presumed sample/library key; cells nested"
+}
