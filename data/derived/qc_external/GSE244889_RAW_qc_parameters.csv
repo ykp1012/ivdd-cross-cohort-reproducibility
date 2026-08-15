@@ -1,0 +1,2 @@
+archive,ledger,min_genes,min_umi,max_mt_pct,cell_output,scope
+data\raw\GSE244889_RAW.tar,data\derived\GSE244889_scrna_sample_ledger.csv,200,500,20.0,data\derived\qc_external\GSE244889_RAW_cell_qc.tsv.gz,streaming technical QC before anatomical/resident annotation
