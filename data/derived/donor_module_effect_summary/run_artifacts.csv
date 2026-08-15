@@ -1,0 +1,13 @@
+artifact,generated_by_this_invocation,purpose
+README.md,true,See README.md for the artifact contract.
+resolved_contrast_spec.csv,true,See README.md for the artifact contract.
+run_parameters.csv,true,See README.md for the artifact contract.
+score_ingestion_audit.csv,true,See README.md for the artifact contract.
+donor_module_group_descriptives.csv,true,See README.md for the artifact contract.
+donor_module_effects.csv,true,See README.md for the artifact contract.
+donor_module_leave_one_out.csv,true,See README.md for the artifact contract.
+cross_cohort_direction_consistency.csv,true,See README.md for the artifact contract.
+run_artifacts.csv,true,See README.md for the artifact contract.
+run_manifest.json,true,See README.md for the artifact contract.
+cohort_score_availability.csv,true,See README.md for the artifact contract.
+score_ledger_identity_crosswalk.csv,true,See README.md for the artifact contract.
