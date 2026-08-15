@@ -1,0 +1,7 @@
+dataset,gsm,donor_id,compartment,disease_state,included_cells,total_umi_included_cells,annotation_source
+GSE229711,GSM7173748,SP21.015,AF,healthy,6725,101954698,data\derived\annotation\GSE229711_RAW_cell_annotation.csv.gz
+GSE229711,GSM7173749,SP21.018,AF,healthy,7577,140462883,data\derived\annotation\GSE229711_RAW_cell_annotation.csv.gz
+GSE229711,GSM7173750,SP22.001,AF,healthy,4518,83429879,data\derived\annotation\GSE229711_RAW_cell_annotation.csv.gz
+GSE229711,GSM7173751,SP21.015,NP,healthy,1650,17298631,data\derived\annotation\GSE229711_RAW_cell_annotation.csv.gz
+GSE229711,GSM7173752,SP21.018,NP,healthy,15257,142126122,data\derived\annotation\GSE229711_RAW_cell_annotation.csv.gz
+GSE229711,GSM7173753,SP22.001,NP,healthy,7070,122814612,data\derived\annotation\GSE229711_RAW_cell_annotation.csv.gz
