@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "purpose": "GSE56081 candidate-only whole-transcriptome and primary-assembly exact probe specificity audit",
+  "decision": "candidate_only_blocked_global_probe_specificity_not_resolved",
+  "default_result_mutation": false,
+  "platform": "GPL15314",
+  "matching": {
+    "rule": "complete exact A/C/G/T sequence matching in both platform orientation and reverse complement",
+    "minimum_probe_length": 60,
+    "maximum_probe_length": 60,
+    "overlapping_matches_retained": true,
+    "multi_hit_handling": "all transcript records, gene IDs, and primary-assembly loci are retained; failed probes are explicitly excluded from any exploratory score"
+  },
+  "reference": {
+    "ensembl_release": 113,
+    "assembly": "GRCh38",
+    "primary_assembly_scope": "Ensembl GRCh38 primary assembly FASTA; alternate loci are not searched",
+    "downloaded_at_utc": "2026-08-14T09:18:02Z",
+    "artifacts": {
+      "cdna": {
+        "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.cdna.all.fa.gz",
+        "bytes": 79685174,
+        "sha256": "34f848e2dd9c2a4e30d6ff2c7918a3e06c51fe1716c1e955e71e0c36ce28d5ad",
+        "url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz"
+      },
+      "ncrna": {
+        "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.ncrna.fa.gz",
+        "bytes": 40965413,
+        "sha256": "3a5e436d438d17af848492011c361848b59aab85f169fbe631d540fa07aa57b5",
+        "url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/ncrna/Homo_sapiens.GRCh38.ncrna.fa.gz"
+      },
+      "gtf": {
+        "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.113.gtf.gz",
+        "bytes": 64141785,
+        "sha256": "62f1709b40e083ce9d4cdc64a86b5ffec2c5d5371434bb7095c74dc89079c466",
+        "url": "https://ftp.ensembl.org/pub/release-113/gtf/homo_sapiens/Homo_sapiens.GRCh38.113.gtf.gz"
+      },
+      "primary_assembly": {
+        "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+        "bytes": 881964081,
+        "sha256": "d8c3af0094a7bba6125763bad779ec18a81483c739c6ed122094bdf86c187b92",
+        "url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz"
+      }
+    }
+  },
+  "queries": {
+    "candidate_probe_count": 82,
+    "unique_search_pattern_count": 164
+  },
+  "transcriptome_scan": {
+    "files": "2",
+    "records": "410909",
+    "bases": "596640119",
+    "pattern_hits": "348"
+  },
+  "primary_assembly_scan": {
+    "files": "1",
+    "records": "194",
+    "bases": "3099750718",
+    "pattern_hits": "76"
+  },
+  "module_gate": [
+    {
+      "module_id": "ecm_collagen_remodeling",
+      "configured_genes": "24",
+      "candidate_probes": "26",
+      "globally_specific_probes": "20",
+      "genes_with_globally_specific_probe": "17",
+      "specific_gene_fraction": "0.708333",
+      "minimum_0_80_gate": "fail",
+      "failed_probe_count": "6",
+      "cross_gene_or_multi_locus_exclusions": "6"
+    },
+    {
+      "module_id": "inflammatory_nfkb",
+      "configured_genes": "21",
+      "candidate_probes": "18",
+      "globally_specific_probes": "12",
+      "genes_with_globally_specific_probe": "12",
+      "specific_gene_fraction": "0.571429",
+      "minimum_0_80_gate": "fail",
+      "failed_probe_count": "6",
+      "cross_gene_or_multi_locus_exclusions": "6"
+    },
+    {
+      "module_id": "hypoxia_oxidative_stress",
+      "configured_genes": "18",
+      "candidate_probes": "23",
+      "globally_specific_probes": "12",
+      "genes_with_globally_specific_probe": "9",
+      "specific_gene_fraction": "0.500000",
+      "minimum_0_80_gate": "fail",
+      "failed_probe_count": "11",
+      "cross_gene_or_multi_locus_exclusions": "11"
+    },
+    {
+      "module_id": "disc_matrix_homeostasis",
+      "configured_genes": "15",
+      "candidate_probes": "15",
+      "globally_specific_probes": "10",
+      "genes_with_globally_specific_probe": "9",
+      "specific_gene_fraction": "0.600000",
+      "minimum_0_80_gate": "fail",
+      "failed_probe_count": "5",
+      "cross_gene_or_multi_locus_exclusions": "5"
+    }
+  ],
+  "failed_probe_count": 28,
+  "failed_probe_ids": [
+    "ASHG19A3A018713",
+    "ASHG19A3A016710",
+    "ASHG19A3A047884",
+    "ASHG19A3A018390",
+    "ASHG19A3A040920",
+    "ASHG19A3A037957",
+    "ASHG19A3A008202",
+    "ASHG19A3A040600",
+    "ASHG19A3A014218",
+    "ASHG19A3A034044",
+    "ASHG19A3A005868",
+    "ASHG19A3A031293",
+    "ASHG19A3A038533",
+    "ASHG19A3A012420",
+    "ASHG19A3A041749",
+    "ASHG19A3A048316",
+    "ASHG19A3A048324",
+    "ASHG19A3A000593",
+    "ASHG19A3A050857",
+    "ASHG19A3A051502",
+    "ASHG19A3A051503",
+    "ASHG19A3A046196",
+    "ASHG19A3A044423",
+    "ASHG19A3A018554",
+    "ASHG19A3A036097",
+    "ASHG19A3A008338",
+    "ASHG19A3A013334",
+    "ASHG19A3A009881"
+  ],
+  "generated_at_utc": "2026-08-14T09:18:02Z"
+}

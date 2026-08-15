@@ -1,0 +1,5 @@
+module_id,configured_genes,genes_with_exact_sequence_match,genes_with_unique_locked_gene_match,mapped_fraction,minimum_0_80_gate,annotation_boundary
+ecm_collagen_remodeling,24,23,23,0.958333,pass,Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established
+inflammatory_nfkb,21,17,17,0.809524,pass,Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established
+hypoxia_oxidative_stress,18,16,16,0.888889,pass,Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established
+disc_matrix_homeostasis,15,14,14,0.933333,pass,Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established

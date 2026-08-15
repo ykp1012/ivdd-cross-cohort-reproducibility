@@ -1,0 +1,5 @@
+module_id,configured_genes,candidate_probes,globally_specific_probes,genes_with_globally_specific_probe,specific_gene_fraction,minimum_0_80_gate,failed_probe_count,cross_gene_or_multi_locus_exclusions
+ecm_collagen_remodeling,24,26,20,17,0.708333,fail,6,6
+inflammatory_nfkb,21,18,12,12,0.571429,fail,6,6
+hypoxia_oxidative_stress,18,23,12,9,0.500000,fail,11,11
+disc_matrix_homeostasis,15,15,10,9,0.600000,fail,5,5

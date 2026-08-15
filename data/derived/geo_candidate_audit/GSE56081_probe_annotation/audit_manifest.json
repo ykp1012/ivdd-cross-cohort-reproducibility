@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "purpose": "GSE56081 candidate-only raw archive and GPL15314 probe annotation audit",
+  "decision": "candidate_score_level_requires_manual_or_external_probe_annotation_review",
+  "platform": "GPL15314",
+  "design_file_declared_by_raw_tar": "033010_D_F_20110314.xml",
+  "platform_rows": 60756,
+  "control_false_rows": 60699,
+  "sequence_annotated_rows": 60314,
+  "sequence_method": "exact 45+ nt platform sequence match to Ensembl GRCh38 canonical cDNA in either orientation",
+  "sequence_specificity_limit": "matches were checked for collisions among the 78 locked genes only; genome-wide uniqueness and manufacturer annotation were not established",
+  "default_result_mutation": false,
+  "module_gate": [
+    {
+      "module_id": "ecm_collagen_remodeling",
+      "configured_genes": "24",
+      "genes_with_exact_sequence_match": "23",
+      "genes_with_unique_locked_gene_match": "23",
+      "mapped_fraction": "0.958333",
+      "minimum_0_80_gate": "pass",
+      "annotation_boundary": "Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established"
+    },
+    {
+      "module_id": "inflammatory_nfkb",
+      "configured_genes": "21",
+      "genes_with_exact_sequence_match": "17",
+      "genes_with_unique_locked_gene_match": "17",
+      "mapped_fraction": "0.809524",
+      "minimum_0_80_gate": "pass",
+      "annotation_boundary": "Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established"
+    },
+    {
+      "module_id": "hypoxia_oxidative_stress",
+      "configured_genes": "18",
+      "genes_with_exact_sequence_match": "16",
+      "genes_with_unique_locked_gene_match": "16",
+      "mapped_fraction": "0.888889",
+      "minimum_0_80_gate": "pass",
+      "annotation_boundary": "Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established"
+    },
+    {
+      "module_id": "disc_matrix_homeostasis",
+      "configured_genes": "15",
+      "genes_with_exact_sequence_match": "14",
+      "genes_with_unique_locked_gene_match": "14",
+      "mapped_fraction": "0.933333",
+      "minimum_0_80_gate": "pass",
+      "annotation_boundary": "Ensembl canonical transcript exact sequence match; genome-wide probe specificity not established"
+    }
+  ],
+  "input_sha256": {
+    "config/program_modules.json": "04ae3b181dbcb67e5c29899e637a3141a95bf916931211a47902eaed45b4f15c",
+    "data/raw/geo_candidates/GSE56081/GSE56081_family.soft.gz": "851c5d34891098298f86b267825c4d19689ca83fb4515f1e5e815a02820d0508",
+    "data/raw/geo_candidates/GSE56081/GSE56081_series_matrix.txt.gz": "8d4b9309b01e9073d7131c3363dcd3c5fcbd4b6f52fcc7fc587b2b95c8537025",
+    "data/raw/geo_candidates/GSE56081/GSE56081_RAW.tar": "084c6bcb6deeb143dd003f333c51c166e1f11fbafc4bec87cedb69ff30dd2d98"
+  },
+  "generated_at_utc": "2026-08-14T08:44:39Z"
+}

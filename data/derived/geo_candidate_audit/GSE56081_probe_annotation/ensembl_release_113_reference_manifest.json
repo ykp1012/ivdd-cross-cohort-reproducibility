@@ -1,0 +1,32 @@
+{
+  "ensembl_release": 113,
+  "assembly": "GRCh38",
+  "primary_assembly_scope": "Ensembl GRCh38 primary assembly FASTA; alternate loci are not searched",
+  "downloaded_at_utc": "2026-08-14T09:18:02Z",
+  "artifacts": {
+    "cdna": {
+      "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.cdna.all.fa.gz",
+      "bytes": 79685174,
+      "sha256": "34f848e2dd9c2a4e30d6ff2c7918a3e06c51fe1716c1e955e71e0c36ce28d5ad",
+      "url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz"
+    },
+    "ncrna": {
+      "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.ncrna.fa.gz",
+      "bytes": 40965413,
+      "sha256": "3a5e436d438d17af848492011c361848b59aab85f169fbe631d540fa07aa57b5",
+      "url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/ncrna/Homo_sapiens.GRCh38.ncrna.fa.gz"
+    },
+    "gtf": {
+      "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.113.gtf.gz",
+      "bytes": 64141785,
+      "sha256": "62f1709b40e083ce9d4cdc64a86b5ffec2c5d5371434bb7095c74dc89079c466",
+      "url": "https://ftp.ensembl.org/pub/release-113/gtf/homo_sapiens/Homo_sapiens.GRCh38.113.gtf.gz"
+    },
+    "primary_assembly": {
+      "path": "data/raw/reference/ensembl_release_113/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+      "bytes": 881964081,
+      "sha256": "d8c3af0094a7bba6125763bad779ec18a81483c739c6ed122094bdf86c187b92",
+      "url": "https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz"
+    }
+  }
+}
