@@ -1,0 +1,29 @@
+# Local environments and package caches
+.venv/
+venv/
+tools/python/venv/
+r_library/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+
+# Upstream source data and download state
+data/raw/
+*.partial
+
+# Machine-specific records and transient files
+.ivdd_resources.json
+tools/resource_snapshot*.json
+logs/
+*.log
+*.exporting.pdf
+
+# Generated scratch artifacts that are not release records
+data/derived/_tmp_GSE251686_soft.csv
+data/derived/geo_candidate_audit/GSE56081_probe_annotation/tmp_transcript_hits.csv
+data/derived/geo_candidate_audit/GSE56081_probe_annotation/ensembl_canonical_sequence_cache.json
+results/reproducibility_rerun_20260814/
+
+# Local release staging output
+.release-staging/
+release-snapshot/

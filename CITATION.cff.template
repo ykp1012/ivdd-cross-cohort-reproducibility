@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Cohort-Aware Descriptive Analysis of Directionality and Heterogeneity of Nucleus Pulposus Transcriptional Programs across Public Human Intervertebral Disc Degeneration Datasets"
+version: "v1.0.0"
+date-released: "YYYY-MM-DD"
+authors:
+  - family-names: "REPLACE_WITH_FAMILY_NAME"
+    given-names: "REPLACE_WITH_GIVEN_NAME"
+    affiliation: "REPLACE_WITH_AFFILIATION"
+    orcid: "https://orcid.org/REPLACE_WITH_ORCID"
+repository-code: "https://github.com/REPLACE_WITH_OWNER/REPLACE_WITH_REPOSITORY"
+license: "REPLACE_WITH_LICENSE_SPDX_ID"

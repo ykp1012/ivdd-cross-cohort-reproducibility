@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Cohort-Aware Descriptive Analysis of Directionality and Heterogeneity of Nucleus Pulposus Transcriptional Programs across Public Human Intervertebral Disc Degeneration Datasets"
+version: "v1.0.0"
+date-released: 2026-08-15
+authors:
+  - family-names: "Maimaiti"
+    given-names: "Yakupu"
+    affiliation: "The Sixth Affiliated Hospital of Xinjiang Medical University, Xinjiang, China"
+  - family-names: "Ainiwaer"
+    given-names: "Refuketi"
+    affiliation: "The Sixth Affiliated Hospital of Xinjiang Medical University, Xinjiang, China"
+  - family-names: "Wahapu"
+    given-names: "Paerhati"
+    affiliation: "The Sixth Affiliated Hospital of Xinjiang Medical University, Xinjiang, China"
+license: "MIT"
+repository-code: "https://github.com/ykp1012/ivdd-cross-cohort-reproducibility"

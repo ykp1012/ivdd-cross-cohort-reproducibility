@@ -1,0 +1,24 @@
+{
+  "title": "Cohort-Aware Descriptive Analysis of Directionality and Heterogeneity of Nucleus Pulposus Transcriptional Programs across Public Human Intervertebral Disc Degeneration Datasets",
+  "description": "Code, configuration, derived result records, and manuscript materials for a cohort-aware descriptive analysis of pre-specified nucleus pulposus transcriptional programs across public human intervertebral disc degeneration datasets. The frozen default analysis reports descriptive effect sizes, intervals, bootstrap stability, and sign alignment only; it does not establish confirmatory, mechanistic, causal, biomarker, or therapeutic conclusions.",
+  "creators": [
+    {
+      "name": "REPLACE_WITH_FAMILY_NAME, REPLACE_WITH_GIVEN_NAME",
+      "affiliation": "REPLACE_WITH_AFFILIATION",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "keywords": [
+    "intervertebral disc degeneration",
+    "nucleus pulposus",
+    "public transcriptomic data",
+    "single-cell transcriptomics",
+    "cohort heterogeneity",
+    "reproducibility"
+  ],
+  "license": {
+    "id": "REPLACE_WITH_LICENSE_SPDX_ID"
+  },
+  "upload_type": "software",
+  "access_right": "open"
+}
