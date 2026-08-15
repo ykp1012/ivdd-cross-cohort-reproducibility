@@ -1,0 +1,237 @@
+{
+  "all_effects_confirmatory_eligible": false,
+  "authoritative_default_summary": false,
+  "contrast_specification": [
+    {
+      "analysis_role": "exploratory_effect_size_and_stability_only",
+      "cohort_id": "GSE230809_discovery",
+      "cohort_role": "exploratory_discovery_parent_project",
+      "comparison_label": "healthy_low_grade",
+      "comparison_value": "healthy",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "advanced_degeneration_associated_minus_healthy_low_grade",
+      "dataset_values": "GSE229711;GSE230808",
+      "group_column": "disease_state",
+      "inference_key_type": "donor_id",
+      "notes": "One parent project; age and disease status are fully confounded, and the healthy group has n=3. Exploratory effect-size and stability display only.",
+      "score_files": "data/derived/module_scores_recomputed/GSE229711/GSE229711_RAW_module_scores.csv;data/derived/module_scores_recomputed/GSE230808/GSE230808_RAW_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "advanced_degeneration_associated",
+      "target_value": "diseased"
+    },
+    {
+      "analysis_role": "directional_effect_size_and_stability_only",
+      "cohort_id": "GSE244889_directional",
+      "cohort_role": "external_directional_support_only",
+      "comparison_label": "mild_MDD",
+      "comparison_value": "MDD",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "severe_SDD_minus_mild_MDD",
+      "dataset_values": "GSE244889",
+      "group_column": "disease_state",
+      "inference_key_type": "presumed_donor_or_library_key",
+      "notes": "Four MDD versus three SDD title-derived presumed donor/library keys; directional support only, not confirmatory validation.",
+      "score_files": "data/derived/module_scores_recomputed/GSE244889/GSE244889_RAW_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "severe_SDD",
+      "target_value": "SDD"
+    },
+    {
+      "analysis_role": "external_support_effect_size_and_stability_only",
+      "cohort_id": "GSE153066_support",
+      "cohort_role": "external_count_level_support_only",
+      "comparison_label": "relatively_normal",
+      "comparison_value": "relatively normal",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "degenerated_minus_relatively_normal",
+      "dataset_values": "GSE153066",
+      "group_column": "disease_state",
+      "inference_key_type": "presumed_donor_or_library_key",
+      "notes": "Eight relatively-normal versus eight degenerated presumed sample/library keys. The GEO-retained dense count matrix follows contributor cell filtering; clinical source and age are confounded with disease status. External support only, not an age-independent or causal contrast.",
+      "score_files": "data/derived/module_scores_external/GSE153066/GSE153066_AllSample.counts_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "degenerated",
+      "target_value": "degenerated"
+    },
+    {
+      "analysis_role": "score_level_direction_and_stability_only",
+      "cohort_id": "GSE165722_score_level",
+      "cohort_role": "external_normalized_count_score_level_direction_only",
+      "comparison_label": "mild",
+      "comparison_value": "mild",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "severe_minus_mild",
+      "dataset_values": "GSE165722",
+      "group_column": "disease_state",
+      "inference_key_type": "presumed_donor_level_sample_key",
+      "notes": "Four mild versus four severe presumed sample keys, with severity assigned from the source-publication grouping because GEO and source-publication grades differ. GEO describes supplied values as normalized counts; this cohort supports only score-level direction and leave-one-key-out stability, not raw-count, cell-level, confirmatory, causal, or age-adjusted inference.",
+      "score_files": "data/derived/module_scores_external/GSE165722/GSE165722_RAW_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "severe",
+      "target_value": "severe"
+    },
+    {
+      "analysis_role": "post_hoc_external_score_level_support_only",
+      "cohort_id": "GSE186542_external_count_support",
+      "cohort_role": "post_hoc_external_human_np_count_score_support",
+      "comparison_label": "early_Pfirrmann_I_III",
+      "comparison_value": "early_control",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "advanced_Pfirrmann_IV_V_minus_early_Pfirrmann_I_III",
+      "dataset_values": "GSE186542",
+      "group_column": "disease_state",
+      "inference_key_type": "GSM_as_presumed_donor_or_sample_key",
+      "notes": "Post hoc external human NP cohort: early Pfirrmann I-III n=3 versus advanced IV-V n=3. Matrix columns map exactly to six GSM accessions and four locked modules map at 100%. BioProject PRJNA774342 is accession-level independent from the default cohorts, but GEO does not expose patient ID, age, sex, or disc level. Supplied count and processed-value provenance is inconsistent in GEO metadata; use score-level standardization only, not raw-count-model inference or confirmatory validation.",
+      "score_files": "data/derived/module_scores_external/GSE186542/GSE186542_gene_expression_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "advanced_Pfirrmann_IV_V",
+      "target_value": "advanced_degenerated"
+    },
+    {
+      "analysis_role": "post_hoc_source_family_replacement_sensitivity_only",
+      "cohort_id": "GSE245147_external_native_comparison_support",
+      "cohort_role": "post_hoc_external_human_np_processed_score_support",
+      "comparison_label": "no_degenerated",
+      "comparison_value": "no_degenerated",
+      "compartment": "NP",
+      "confirmatory_eligible": "false",
+      "contrast_label": "degenerated_minus_no_degenerated",
+      "dataset_values": "GSE245147",
+      "group_column": "disease_state",
+      "inference_key_type": "GSM_as_presumed_donor_or_sample_key",
+      "notes": "Conditional replacement for GSE167931: native Degenerated n=3 versus No-degenerated n=3 columns only. P2/P8 passage and DMSO/H-151 treatment arms are excluded. RPKM score-level analysis only; one inflammatory gene (TNF) is missing but module coverage is 95.2%. BioProject PRJNA1027236 is accession-level distinct, but the source lab/author family overlaps GSE167931 and patient-level independence cannot be verified. Do not pool both source-family cohorts as independent studies.",
+      "score_files": "data/derived/module_scores_external/GSE245147/GSE245147_Degenerated_NO_Degenerated_RPKM_module_scores.csv",
+      "severity_orientation": "higher_severity_minus_lower_severity",
+      "target_label": "degenerated",
+      "target_value": "degenerated"
+    }
+  ],
+  "default_authoritative_result_directory": "data/derived/donor_module_effect_summary/",
+  "excluded_separate_exploratory_package": {
+    "cohort_id": "GSE251686_exploratory",
+    "reason": "A separate mild n=2 versus severe n=3 exploratory score/effect package exists, but it is intentionally excluded from this summary and is not confirmatory evidence.",
+    "score_package": "data/derived/GSE251686_exploratory_scores/"
+  },
+  "generated_artifact_sha256": {
+    "README.md": "ae0845db253226b60134ff56e4c90066e9d4a8c8d771ac7970533619595898be",
+    "cross_cohort_direction_consistency.csv": "3d763af8dcb6338a830dc9a06d048872bf2c4324a3416a9155b4805f77008132",
+    "donor_module_effects.csv": "70f49baf347c2ed68def7d60d4ffd5955c2493d43d3c97ca590a6a9adcb55ba3",
+    "donor_module_group_descriptives.csv": "3c11c675e91986ab2da74142c20a062028ebd17b93340fc57edae0abe00f62b2",
+    "donor_module_leave_one_out.csv": "8d20633a61cd733131b93771bc38d815a2a937d50815f66eca04c41886a8dcee",
+    "resolved_contrast_spec.csv": "ce2b493603fd759ba61e1674f242421120ba975c716b08d1b4962a01129f282b",
+    "run_parameters.csv": "7e55c627aaceebe311771aef7662a581535e71c742629f339c189aae0523f682",
+    "score_ingestion_audit.csv": "ed9b7db71777313a7f3b424a0129f514eae4a97387654c586c4c641c92cc530b"
+  },
+  "generated_at_utc": "2026-08-14T08:48:30.105702+00:00",
+  "input_parameter_rows": [
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_recomputed\\GSE229711\\GSE229711_RAW_module_scores.csv",
+      "sha256": "6b51d904d68434266df35ef6e58c850387f5f7eb38239489b53263dd4b90654a"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_recomputed\\GSE230808\\GSE230808_RAW_module_scores.csv",
+      "sha256": "0a6575f7948a0b1c74a16fcf5e9a128cab9332a032b8e692b0195b2b0fa03335"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_recomputed\\GSE244889\\GSE244889_RAW_module_scores.csv",
+      "sha256": "800832450aee6dca0a5b8c547100e65dc8506c407538ac7419d14e98624c1a56"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_external\\GSE153066\\GSE153066_AllSample.counts_module_scores.csv",
+      "sha256": "31a6cb8db3815a2d9742d8ef2fe7e4f1f0102af27b52c4a5fe781e9158351183"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_external\\GSE165722\\GSE165722_RAW_module_scores.csv",
+      "sha256": "49ac4cd36758aa424e458bb479f3fde8607a70bc12aa31fe414729f0f66a75e3"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_external\\GSE186542\\GSE186542_gene_expression_module_scores.csv",
+      "sha256": "7e7e36c85d742d7efa8f72a79b7af9c0519355659376d52e882e800213d1cca5"
+    },
+    {
+      "notes": "Exact input table used for donor/library-level summarization.",
+      "parameter_class": "score_table_input",
+      "parameter_name": "score_table",
+      "parameter_value": ".\\data\\derived\\module_scores_external\\GSE245147\\GSE245147_Degenerated_NO_Degenerated_RPKM_module_scores.csv",
+      "sha256": "69a96f1b00df9261e42f5a246e1c135a322c65949a6bbea242d2f2e2c16b6c1d"
+    },
+    {
+      "notes": "Exact implementation used to create this summary directory.",
+      "parameter_class": "analysis_script",
+      "parameter_name": "summarize_donor_module_effects.py",
+      "parameter_value": ".\\scripts\\summarize_donor_module_effects.py",
+      "sha256": "f3f71b88e2ac67a80181bda5af68b5788ff742d5583d4b2e13c1cf548806e4f4"
+    },
+    {
+      "notes": "This non-authoritative 24-effect staging summary supplies the GSE245147-for-GSE167931 replacement inputs to S9. It does not replace or revise the frozen default summary.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "summary_contract",
+      "parameter_value": "source_family_replacement",
+      "sha256": ""
+    },
+    {
+      "notes": "Used for Welch and percentile bootstrap intervals.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "confidence_level",
+      "parameter_value": "0.95000000",
+      "sha256": ""
+    },
+    {
+      "notes": "Independent resampling within donor/library contrast arms.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "bootstrap_replicates",
+      "parameter_value": "10000",
+      "sha256": ""
+    },
+    {
+      "notes": "Cohort/compartment/module-specific deterministic seeds are derived from this root seed.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "random_seed",
+      "parameter_value": "20260814",
+      "sha256": ""
+    },
+    {
+      "notes": "Score rows below this pre-specified module mapping threshold are excluded with an audit row.",
+      "parameter_class": "analysis_setting",
+      "parameter_name": "min_mapped_fraction",
+      "parameter_value": "0.80000000",
+      "sha256": ""
+    }
+  ],
+  "no_p_values_or_multiple_testing_adjustment": true,
+  "result_contract": "source_family_replacement_intermediate_summary_only",
+  "result_directory": ".\\data\\derived\\donor_module_effect_summary_source_family_replacement",
+  "schema_version": 1,
+  "summary_cohort_ids": [
+    "GSE153066_support",
+    "GSE165722_score_level",
+    "GSE186542_external_count_support",
+    "GSE230809_discovery",
+    "GSE244889_directional",
+    "GSE245147_external_native_comparison_support"
+  ],
+  "summary_effect_count": 24
+}
