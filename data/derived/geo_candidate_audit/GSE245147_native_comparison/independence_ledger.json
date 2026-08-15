@@ -1,0 +1,11 @@
+{
+  "dataset": "GSE245147",
+  "bioproject": "PRJNA1027236",
+  "pubmed": "38488012",
+  "unique_biosamples_exposed": 18,
+  "native_comparison_biosamples": 6,
+  "default_cohort_bioproject_overlap": "not observed at local SOFT/BioProject level",
+  "patient_level_independence": "not verifiable: public GEO metadata expose no patient IDs, age, sex, or disc level",
+  "related_candidate_boundary": "GSE266883 is excluded because the human design and author chain are highly similar; do not pool both",
+  "analysis_boundary": "score-level RPKM only; no raw-count model, treatment effect, passage effect, causal or confirmatory inference"
+}
