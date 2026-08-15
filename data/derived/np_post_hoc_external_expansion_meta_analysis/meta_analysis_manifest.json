@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-14 08:43:12 UTC",
+  "purpose": "Post hoc exploratory six-cohort random-effects synthesis of human NP module scores.",
+  "scope": {
+    "cohorts": ["GSE230809_discovery", "GSE244889_directional", "GSE153066_support", "GSE165722_score_level", "GSE186542_external_count_support", "GSE167931_external_fpkm_support"],
+    "modules": ["ecm_collagen_remodeling", "inflammatory_nfkb", "hypoxia_oxidative_stress", "disc_matrix_homeostasis"],
+    "newly_added": ["GSE186542", "GSE167931 FPKM"],
+    "excluded": "GSE167931 TPM is a paired processing sensitivity; GSE251686 and GSM7986002 remain excluded.",
+    "independence_boundary": "GSE186542 and GSE167931 are accession/BioProject-level additions; patient-level independence is not established.",
+    "primary_analysis": "SMDH, REML, Knapp-Hartung; all included cohorts are post hoc and non-confirmatory.",
+    "primary_result_table": "./results/supplementary_tables/supplementary_table_s8b_np_post_hoc_external_expansion_primary_results.csv"
+  },
+  "software": {
+    "R": "R version 4.4.1 (2024-06-14 ucrt)",
+    "metafor": "4.8.0",
+    "digest": "0.6.37",
+    "jsonlite": "2.0.0"
+  },
+  "input_sha256": {
+    "data/derived/donor_module_effect_summary_external_expansion/donor_module_group_descriptives.csv": "d059bf628317ff996ed5986f33deccd8ee2bde35914f085e84609da0026a84f7",
+    "data/derived/donor_module_effect_summary_external_expansion/donor_module_effects.csv": "d75c66bbc8b9efe7b4e748c9c34abc79ce7c564067769bccc8250554f4c06ed6",
+    "config/np_post_hoc_external_expansion_contrast_spec.csv": "7773410f953b42e600444088904d7cf5e3bdd3412a5c64fc82b7a1176ec63204",
+    "scripts/run_np_post_hoc_external_expansion_meta_analysis.R": "d2a69b933867cb1fcfd3a6c2b34c220a7e2b2e5a012402c6813a9278273ba73e"
+  },
+  "generated_artifact_sha256": {
+    "results/supplementary_tables/supplementary_table_s8a_np_post_hoc_external_expansion_study_effects.csv": "34860363769bfe5aa971c2368aa3d62209159f0239732cd4b36afec5fcc57979",
+    "results/supplementary_tables/supplementary_table_s8b_np_post_hoc_external_expansion_primary_results.csv": "00a0aa4d7a7dea4f91a31d28bc10f5007e62903426cc6fe5a54dfdf1246db496",
+    "results/supplementary_tables/supplementary_table_s8c_np_post_hoc_external_expansion_model_sensitivity.csv": "c0cfe4180259f53bdda6724071d32d39d72bb64ccc5609f7120ea4ef786fdbfc",
+    "results/supplementary_tables/supplementary_table_s8d_np_post_hoc_external_expansion_leave_one_cohort_out.csv": "0e43a81df56c43c9f15838e15f94bf719f57d93d1b399d2ddf87f129219ed086",
+    "data/derived/np_post_hoc_external_expansion_meta_analysis/run_parameters.csv": "58a90fb01ee2710a97a607abf1902aa4833e8c77c3dc95d3962b7a87b8dddf00",
+    "data/derived/np_post_hoc_external_expansion_meta_analysis/README.md": "634d68ea6958c0ba05d78e0e2c50c65f17cae2258e47d084eabe9e784717194a",
+    "results/supplementary_figures/supplementary_figure_s4_np_post_hoc_external_expansion_meta_analysis.pdf": "16a6d6123b181c85332d84d259c1bf2590c2a2ba7ea5608b080e7a3ee05f18d2",
+    "results/supplementary_figures/supplementary_figure_s4_np_post_hoc_external_expansion_meta_analysis.png": "b9c0dfcabf7db21a8de9d2c0a1b22e6553a302be16a850ee57f98b38ed502a76"
+  }
+}
