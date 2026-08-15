@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-14 08:43:12 UTC",
+  "purpose": "Source-family replacement sensitivity for a six-cohort exploratory random-effects synthesis of human NP module scores.",
+  "scope": {
+    "cohorts": ["GSE230809_discovery", "GSE244889_directional", "GSE153066_support", "GSE165722_score_level", "GSE186542_external_count_support", "GSE245147_external_native_comparison_support"],
+    "modules": ["ecm_collagen_remodeling", "inflammatory_nfkb", "hypoxia_oxidative_stress", "disc_matrix_homeostasis"],
+    "newly_added": ["GSE186542", "GSE245147 native subset"],
+    "excluded": "GSE167931 is excluded by source-family replacement; GSE245147 passage/treatment arms, GSE251686, and GSM7986002 remain excluded.",
+    "independence_boundary": "GSE245147 is a source-family replacement for GSE167931; patient-level independence from that family is not established.",
+    "primary_analysis": "SMDH, REML, Knapp-Hartung; replacement is sensitivity-only and non-confirmatory.",
+    "primary_result_table": "./results/supplementary_tables/supplementary_table_s9b_np_source_family_replacement_sensitivity_primary_results.csv"
+  },
+  "software": {
+    "R": "R version 4.4.1 (2024-06-14 ucrt)",
+    "metafor": "4.8.0",
+    "digest": "0.6.37",
+    "jsonlite": "2.0.0"
+  },
+  "input_sha256": {
+    "data/derived/donor_module_effect_summary_source_family_replacement/donor_module_group_descriptives.csv": "3c11c675e91986ab2da74142c20a062028ebd17b93340fc57edae0abe00f62b2",
+    "data/derived/donor_module_effect_summary_source_family_replacement/donor_module_effects.csv": "70f49baf347c2ed68def7d60d4ffd5955c2493d43d3c97ca590a6a9adcb55ba3",
+    "config/np_source_family_replacement_contrast_spec.csv": "1ae631df0ff5fad0155889feec0c738a72d43bdff8b0a8a5c764bfbaf5dd1d4a",
+    "scripts/run_np_post_hoc_external_expansion_meta_analysis.R": "d2a69b933867cb1fcfd3a6c2b34c220a7e2b2e5a012402c6813a9278273ba73e"
+  },
+  "generated_artifact_sha256": {
+    "results/supplementary_tables/supplementary_table_s9a_np_source_family_replacement_sensitivity_study_effects.csv": "b2f490afd4fcebbff3e4617775b8b52c0629b65c854c00877675078f73a5b9f1",
+    "results/supplementary_tables/supplementary_table_s9b_np_source_family_replacement_sensitivity_primary_results.csv": "14a82a6e1e70412f9e7628906eabe767e1b492f6e3155b46496f1cf32db2f168",
+    "results/supplementary_tables/supplementary_table_s9c_np_source_family_replacement_sensitivity_model_sensitivity.csv": "b33d7950a6d843972e77f30ef7b8ca78ed4dcceca49ec86933c732b201d66418",
+    "results/supplementary_tables/supplementary_table_s9d_np_source_family_replacement_sensitivity_leave_one_cohort_out.csv": "701fc3d6931b9cde4d4ab3c412e41535c02aea666951249768790e69609f1869",
+    "data/derived/np_source_family_replacement_meta_analysis/run_parameters.csv": "8d23853714d85e9acacc6f68981e276f59b55da190cfbb38e3e56f2245dde44a",
+    "data/derived/np_source_family_replacement_meta_analysis/README.md": "5f46fee5063da3efae08bdf5f7f434ae8dd06b82bd824e81d0671c0c3f078301",
+    "results/supplementary_figures/supplementary_figure_s5_np_source_family_replacement_sensitivity.pdf": "f4ace9700394bf68d0346a053c086c0b85429621fd363da99b2b0785bbd1b04c",
+    "results/supplementary_figures/supplementary_figure_s5_np_source_family_replacement_sensitivity.png": "a9d9a66c4fda47035670936ad137b9924d91009d333b6242513b7fcca0ab0b6d"
+  }
+}
