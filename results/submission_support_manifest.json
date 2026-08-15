@@ -1,0 +1,97 @@
+{
+  "analysis_contract": {
+    "default_summary": "Frozen 20-effect descriptive analysis; no p-values, formal meta-analysis, or replication adjudication.",
+    "supplementary_s7_s9": "Separate non-confirmatory SMDH random-effects syntheses; HKSJ and four-module BH p-values are transparent descriptive outputs only."
+  },
+  "default_no_hypothesis_tests_or_p_values": true,
+  "default_score_ledger_exact_matches": "55/55",
+  "default_summary_confirmatory_eligible": false,
+  "default_summary_effect_count": 20,
+  "generated_artifact_sha256": {
+    "figures\\figure_1_np_cohort_module_effects.pdf": "a85ef5c5a12a4912be16bb8aeff70d994574ff68798eac128f2b4529e17119f0",
+    "figures\\figure_1_np_cohort_module_effects.png": "3332d5653cd903f425d5218aa32636c280c6c521ca2d46fb1dc631120c3c8ed0",
+    "figures\\figure_2_np_direction_alignment.pdf": "7d3376bc42f6acca8a88f56a276bc119e03bce37e792a68fc37fe629083e9b8c",
+    "figures\\figure_2_np_direction_alignment.png": "84131d868a651c0c2c2b4c5d215a031da377987c23e8e404aca16bdf02dda6ca",
+    "graphical_abstract\\graphical_abstract_cohort_aware_ivdd.pdf": "712db871c2000a76b27461c6e13ab40285ef8025e9bc1245699cfca567077752",
+    "graphical_abstract\\graphical_abstract_cohort_aware_ivdd.png": "85250942898d74dd5818f7280f3e13eb23331d4daefc1c5c958ad7c30975b559",
+    "supplementary_figures\\supplementary_figure_s1_gse251686_exploratory_sensitivity.pdf": "a60712ebf402c874cff4ebbeecbf058c203828180cc45b97e9b19838570ef16b",
+    "supplementary_figures\\supplementary_figure_s1_gse251686_exploratory_sensitivity.png": "55b281cfe2cb9c0cc165ece9af5d007ac0a671b4e4aa467efd5fb178142ce0f0",
+    "supplementary_figures\\supplementary_figure_s2_cohort_disposition_and_analysis_boundary.pdf": "55c23c6cc95449b5fb6aafb7d5bcb1ddb2864bd096a02fa5d33041200806863d",
+    "supplementary_figures\\supplementary_figure_s2_cohort_disposition_and_analysis_boundary.png": "12367dd8c30383856058d403449ff08175cdd2f50e0d5ce2d972e570dea09605",
+    "supplementary_figures\\supplementary_figure_s3_np_exploratory_random_effects_meta_analysis.pdf": "0e277214de111ea61548bcb80b331a9f9d947f99fe8debd6f773675f1a470dac",
+    "supplementary_figures\\supplementary_figure_s3_np_exploratory_random_effects_meta_analysis.png": "1b09e47fbf2a8d4d231640acb5ec8f0ad998f32a2ddf49f3e1129c051a48811f",
+    "supplementary_figures\\supplementary_figure_s4_np_post_hoc_external_expansion_meta_analysis.pdf": "16a6d6123b181c85332d84d259c1bf2590c2a2ba7ea5608b080e7a3ee05f18d2",
+    "supplementary_figures\\supplementary_figure_s4_np_post_hoc_external_expansion_meta_analysis.png": "b9c0dfcabf7db21a8de9d2c0a1b22e6553a302be16a850ee57f98b38ed502a76",
+    "supplementary_figures\\supplementary_figure_s5_np_source_family_replacement_sensitivity.pdf": "f4ace9700394bf68d0346a053c086c0b85429621fd363da99b2b0785bbd1b04c",
+    "supplementary_figures\\supplementary_figure_s5_np_source_family_replacement_sensitivity.png": "a9d9a66c4fda47035670936ad137b9924d91009d333b6242513b7fcca0ab0b6d",
+    "supplementary_tables\\README.md": "7a48c21f0fc40e3f891b9629aba48e753e3c9686b927e30b3ac0c3698045d915",
+    "supplementary_tables\\README_submission_support.md": "ae12f01d70a3df6a83e6aee0c29486d6c51ed181c7213222f92ae47657f6c439",
+    "supplementary_tables\\supplementary_table_s1_gse251686_exploratory_effects.csv": "f7f3c829a7063269929a46153c6c9f6aea1889ce7861a5d9a6f46d97a9341470",
+    "supplementary_tables\\supplementary_table_s2_cohort_disposition_and_identity.csv": "952fff95c8c096f6c06ddbaa1c147ffcd8da5ba8a83032a4d6255a34689b62db",
+    "supplementary_tables\\supplementary_table_s3_locked_program_modules.csv": "8cf85d32062190e866891df93dbe8c30c005912ec53d669846b5fb4b564fd2a0",
+    "supplementary_tables\\supplementary_table_s4_default_leave_one_key_out.csv": "537425471fa039eebd7dae327604f8b357d2a4f93b4c514a9e1d02d97cb28bd6",
+    "supplementary_tables\\supplementary_table_s5a_discovery_threshold_summary.csv": "c84537868b13d8b55ea2486383da72a2208d8e24373d96c655688ba5c02733d2",
+    "supplementary_tables\\supplementary_table_s5b_discovery_threshold_effect_stability.csv": "04a8ecb1b4daf8604048e4f1030ab384b92e09d063050a810635a6f299342914",
+    "supplementary_tables\\supplementary_table_s6_reproducibility_contract.csv": "1e6fa7089eada0b0c36acfaa350404b80738121189104a6eb9144d3c9bba2abc",
+    "supplementary_tables\\supplementary_table_s7a_np_meta_analysis_study_effects.csv": "a420e1792dea38887a059e303a2350fe9532ea75f4634e23616472f3a0de94f6",
+    "supplementary_tables\\supplementary_table_s7b_np_meta_analysis_primary_results.csv": "b37134aeef221598361100abf7ab928728d3bea164e9388ff5d1f5f41b34f504",
+    "supplementary_tables\\supplementary_table_s7c_np_meta_analysis_model_sensitivity.csv": "8c70438ba3ebb6337a9b652f068818f8be3f3e3e0907f59d3342878d0cebef8a",
+    "supplementary_tables\\supplementary_table_s7d_np_meta_analysis_leave_one_cohort_out.csv": "35a7ad815c71c2c2dd1b6978d5a1ea5ba2804c30e55e2e7e3844eedadfb7e4d1",
+    "supplementary_tables\\supplementary_table_s8a_np_post_hoc_external_expansion_study_effects.csv": "34860363769bfe5aa971c2368aa3d62209159f0239732cd4b36afec5fcc57979",
+    "supplementary_tables\\supplementary_table_s8b_np_post_hoc_external_expansion_primary_results.csv": "00a0aa4d7a7dea4f91a31d28bc10f5007e62903426cc6fe5a54dfdf1246db496",
+    "supplementary_tables\\supplementary_table_s8c_np_post_hoc_external_expansion_model_sensitivity.csv": "c0cfe4180259f53bdda6724071d32d39d72bb64ccc5609f7120ea4ef786fdbfc",
+    "supplementary_tables\\supplementary_table_s8d_np_post_hoc_external_expansion_leave_one_cohort_out.csv": "0e43a81df56c43c9f15838e15f94bf719f57d93d1b399d2ddf87f129219ed086",
+    "supplementary_tables\\supplementary_table_s9a_np_source_family_replacement_sensitivity_study_effects.csv": "b2f490afd4fcebbff3e4617775b8b52c0629b65c854c00877675078f73a5b9f1",
+    "supplementary_tables\\supplementary_table_s9b_np_source_family_replacement_sensitivity_primary_results.csv": "14a82a6e1e70412f9e7628906eabe767e1b492f6e3155b46496f1cf32db2f168",
+    "supplementary_tables\\supplementary_table_s9c_np_source_family_replacement_sensitivity_model_sensitivity.csv": "b33d7950a6d843972e77f30ef7b8ca78ed4dcceca49ec86933c732b201d66418",
+    "supplementary_tables\\supplementary_table_s9d_np_source_family_replacement_sensitivity_leave_one_cohort_out.csv": "701fc3d6931b9cde4d4ab3c412e41535c02aea666951249768790e69609f1869",
+    "tables\\table_1_current_cohort_roles.csv": "35ef98590792e37a23f0a8ceca7c7d3eee395cc5a2dad618799add157c02bbb0",
+    "tables\\table_2_np_module_effects.csv": "d79e1781d52d1d25778039fbaa4fa6d2407a72804a893db9e09359601474cc9a"
+  },
+  "gse251686_default_summary_inclusion": false,
+  "gse251686_permanent_exclusion": "GSM7986002",
+  "meta_analysis_artifact_sha256": {
+    "s7_exploratory_four_cohort": {
+      "data\\derived\\np_exploratory_meta_analysis\\README.md": "5362fb1eaa5f62ecd61a0b5d017333810f1f062d3a7849371c394ff623477a59",
+      "data\\derived\\np_exploratory_meta_analysis\\run_parameters.csv": "d709f7d9c79c0f5f56476a3d432b3a1e60d5c5e51a8ef089febb41015a23a8a6",
+      "results\\supplementary_figures\\supplementary_figure_s3_np_exploratory_random_effects_meta_analysis.pdf": "0e277214de111ea61548bcb80b331a9f9d947f99fe8debd6f773675f1a470dac",
+      "results\\supplementary_figures\\supplementary_figure_s3_np_exploratory_random_effects_meta_analysis.png": "1b09e47fbf2a8d4d231640acb5ec8f0ad998f32a2ddf49f3e1129c051a48811f",
+      "results\\supplementary_tables\\supplementary_table_s7a_np_meta_analysis_study_effects.csv": "a420e1792dea38887a059e303a2350fe9532ea75f4634e23616472f3a0de94f6",
+      "results\\supplementary_tables\\supplementary_table_s7b_np_meta_analysis_primary_results.csv": "b37134aeef221598361100abf7ab928728d3bea164e9388ff5d1f5f41b34f504",
+      "results\\supplementary_tables\\supplementary_table_s7c_np_meta_analysis_model_sensitivity.csv": "8c70438ba3ebb6337a9b652f068818f8be3f3e3e0907f59d3342878d0cebef8a",
+      "results\\supplementary_tables\\supplementary_table_s7d_np_meta_analysis_leave_one_cohort_out.csv": "35a7ad815c71c2c2dd1b6978d5a1ea5ba2804c30e55e2e7e3844eedadfb7e4d1"
+    },
+    "s8_post_hoc_external_expansion": {
+      "data\\derived\\np_post_hoc_external_expansion_meta_analysis\\README.md": "634d68ea6958c0ba05d78e0e2c50c65f17cae2258e47d084eabe9e784717194a",
+      "data\\derived\\np_post_hoc_external_expansion_meta_analysis\\run_parameters.csv": "58a90fb01ee2710a97a607abf1902aa4833e8c77c3dc95d3962b7a87b8dddf00",
+      "results\\supplementary_figures\\supplementary_figure_s4_np_post_hoc_external_expansion_meta_analysis.pdf": "16a6d6123b181c85332d84d259c1bf2590c2a2ba7ea5608b080e7a3ee05f18d2",
+      "results\\supplementary_figures\\supplementary_figure_s4_np_post_hoc_external_expansion_meta_analysis.png": "b9c0dfcabf7db21a8de9d2c0a1b22e6553a302be16a850ee57f98b38ed502a76",
+      "results\\supplementary_tables\\supplementary_table_s8a_np_post_hoc_external_expansion_study_effects.csv": "34860363769bfe5aa971c2368aa3d62209159f0239732cd4b36afec5fcc57979",
+      "results\\supplementary_tables\\supplementary_table_s8b_np_post_hoc_external_expansion_primary_results.csv": "00a0aa4d7a7dea4f91a31d28bc10f5007e62903426cc6fe5a54dfdf1246db496",
+      "results\\supplementary_tables\\supplementary_table_s8c_np_post_hoc_external_expansion_model_sensitivity.csv": "c0cfe4180259f53bdda6724071d32d39d72bb64ccc5609f7120ea4ef786fdbfc",
+      "results\\supplementary_tables\\supplementary_table_s8d_np_post_hoc_external_expansion_leave_one_cohort_out.csv": "0e43a81df56c43c9f15838e15f94bf719f57d93d1b399d2ddf87f129219ed086"
+    },
+    "s9_source_family_replacement": {
+      "data\\derived\\np_source_family_replacement_meta_analysis\\README.md": "5f46fee5063da3efae08bdf5f7f434ae8dd06b82bd824e81d0671c0c3f078301",
+      "data\\derived\\np_source_family_replacement_meta_analysis\\run_parameters.csv": "8d23853714d85e9acacc6f68981e276f59b55da190cfbb38e3e56f2245dde44a",
+      "results\\supplementary_figures\\supplementary_figure_s5_np_source_family_replacement_sensitivity.pdf": "f4ace9700394bf68d0346a053c086c0b85429621fd363da99b2b0785bbd1b04c",
+      "results\\supplementary_figures\\supplementary_figure_s5_np_source_family_replacement_sensitivity.png": "a9d9a66c4fda47035670936ad137b9924d91009d333b6242513b7fcca0ab0b6d",
+      "results\\supplementary_tables\\supplementary_table_s9a_np_source_family_replacement_sensitivity_study_effects.csv": "b2f490afd4fcebbff3e4617775b8b52c0629b65c854c00877675078f73a5b9f1",
+      "results\\supplementary_tables\\supplementary_table_s9b_np_source_family_replacement_sensitivity_primary_results.csv": "14a82a6e1e70412f9e7628906eabe767e1b492f6e3155b46496f1cf32db2f168",
+      "results\\supplementary_tables\\supplementary_table_s9c_np_source_family_replacement_sensitivity_model_sensitivity.csv": "b33d7950a6d843972e77f30ef7b8ca78ed4dcceca49ec86933c732b201d66418",
+      "results\\supplementary_tables\\supplementary_table_s9d_np_source_family_replacement_sensitivity_leave_one_cohort_out.csv": "701fc3d6931b9cde4d4ab3c412e41535c02aea666951249768790e69609f1869"
+    }
+  },
+  "schema_version": 2,
+  "self_referential_hash_exclusions": [
+    "submission_support_manifest.json"
+  ],
+  "source_manifest_sha256": {
+    "default_summary": "18d7f69cc4be80107c947b7353cea5497eaee0794f8b4855f7c1c27ff63d6feb",
+    "gse251686_exploratory": "d57d655936c1213f6b2d14141c423c698290b393549eaf6c019eb9d1bdc3e497",
+    "s7_exploratory_four_cohort": "9da7336977aa2315c435335d2ba8ec0dfbbeefd4c933488b8a65fc826896d289",
+    "s8_post_hoc_external_expansion": "4b362ace3c1dc21c25976d68f42f8f936bdf94a6d6a429e421c4ef0270854964",
+    "s9_source_family_replacement": "4538b83ca7f8b32061a2b870ea2ea42910db6694c8d4f30995d4d8ccf71c9b63"
+  },
+  "supplementary_meta_analysis_p_values_transparency_only": true
+}
