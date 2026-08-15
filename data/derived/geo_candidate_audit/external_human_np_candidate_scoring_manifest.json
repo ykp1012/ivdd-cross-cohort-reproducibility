@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "purpose": "Audited scoring of GSE186542 and GSE167931 external human NP cohorts with project-locked modules.",
+  "inference_boundary": "Each GSM is a presumed donor/sample key. All outputs are exploratory score-level support only; no causal, age-adjusted, confirmatory, or cell-level inference.",
+  "included_meta_analysis_representations": [
+    "GSE186542_external_count_support",
+    "GSE167931_external_fpkm_support",
+    "GSE245147_external_native_comparison_support"
+  ],
+  "excluded_as_duplicate_representation": [
+    "GSE167931_external_tpm_sensitivity"
+  ],
+  "module_config_sha256": "04ae3b181dbcb67e5c29899e637a3141a95bf916931211a47902eaed45b4f15c",
+  "input_sha256": {
+    "data/raw/geo_candidates/GSE186542/GSE186542_gene_expression.txt.gz": "6bc5f65815d5cf6814075359941fb76c3f4dabfd04fd007d897ac7da8bb9d6d0",
+    "data/raw/geo_candidates/GSE167931/GSE167931_AllSamplesFPKMValue.txt.gz": "0aaf28897bf474c753af1ca99522bf3b40816645aa88d6f03aba22c0ad18b159",
+    "data/raw/geo_candidates/GSE245147/GSE245147_Degenerated_NO_Degenerated_RPKM.txt.gz": "c38138377d0d1c2f8b3a5281bb48afa400a249242c3eabc5298098994c3c6974",
+    "data/raw/geo_candidates/GSE167931/GSE167931_AllSamplesTPMValue.txt.gz": "91bff01e37af8f8ae147eaed12160207d2ded60a307f8c065d4a699abb8faf03"
+  },
+  "generated_artifact_sha256": {
+    "data/derived/module_scores_external/GSE186542/GSE186542_gene_expression_module_scores.csv": "7e7e36c85d742d7efa8f72a79b7af9c0519355659376d52e882e800213d1cca5",
+    "data/derived/module_scores_external/GSE186542/GSE186542_gene_expression_module_mapping_audit.csv": "96b146f9eba98a0c77727d7338a5433e149035f7add5cacb44b9a26404c1e0f0",
+    "data/derived/module_scores_external/GSE167931/GSE167931_AllSamplesFPKMValue_module_scores.csv": "40094b6fe62250acac37fd8af287c4f2e801dbb794f8cf7df4588d48ee49d979",
+    "data/derived/module_scores_external/GSE167931/GSE167931_AllSamplesFPKMValue_module_mapping_audit.csv": "2d08715df4c391da724b1a027d54cc22533a32fa08f76488e018da80cc7fe548",
+    "data/derived/module_scores_external/GSE245147/GSE245147_Degenerated_NO_Degenerated_RPKM_module_scores.csv": "69a96f1b00df9261e42f5a246e1c135a322c65949a6bbea242d2f2e2c16b6c1d",
+    "data/derived/module_scores_external/GSE245147/GSE245147_Degenerated_NO_Degenerated_RPKM_module_mapping_audit.csv": "ff16db2c93920d6a522c487140e986b5d13e691242da7a42edf1bfee3e18fa0a",
+    "data/derived/module_scores_external/GSE167931/GSE167931_AllSamplesTPMValue_module_scores.csv": "ea46be418b45da863532cf11aa47e1e537ad69b81d6ab6758d5c32eeb20a49f9",
+    "data/derived/module_scores_external/GSE167931/GSE167931_AllSamplesTPMValue_module_mapping_audit.csv": "728e2f124b9dd4248083198ba22a4f7bf5d016f52c81ea9701fd2947b3e83399",
+    "data/derived/geo_candidate_audit/external_human_np_candidate_matrix_audit.csv": "86e37efd4eaa653a65a3cd57fed4a043654e331f0f6bd8a88821abcf4009bfa4",
+    "data/derived/geo_candidate_audit/external_human_np_candidate_identity_audit.csv": "13e36c2687df694b1a85a0e9fcd85cf8104f913df939be5fe1ec29d299565d88",
+    "data/derived/geo_candidate_audit/external_human_np_candidate_module_mapping_audit.csv": "beaf68f781401ed0ff9e2bc30c5cca869982de7eab5ea5b92bebc91aed3ee1d8"
+  }
+}
