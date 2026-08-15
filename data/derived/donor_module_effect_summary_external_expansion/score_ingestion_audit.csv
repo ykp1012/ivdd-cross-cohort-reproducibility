@@ -1,0 +1,7 @@
+cohort_id,compartment,spec_index,source_score_files,raw_rows_loaded,rows_matching_dataset,rows_matching_compartment,rows_matching_contrast_groups,row_disposition,reason,row_count
+GSE230809_discovery,NP,0,GSE229711_RAW_module_scores.csv;GSE230808_RAW_module_scores.csv,96,96,44,44,retained,score_available_and_mapping_pass,44
+GSE244889_directional,NP,1,GSE244889_RAW_module_scores.csv,28,28,28,28,retained,score_available_and_mapping_pass,28
+GSE153066_support,NP,2,GSE153066_AllSample.counts_module_scores.csv,64,64,64,64,retained,score_available_and_mapping_pass,64
+GSE165722_score_level,NP,3,GSE165722_RAW_module_scores.csv,32,32,32,32,retained,score_available_and_mapping_pass,32
+GSE186542_external_count_support,NP,4,GSE186542_gene_expression_module_scores.csv,24,24,24,24,retained,score_available_and_mapping_pass,24
+GSE167931_external_fpkm_support,NP,5,GSE167931_AllSamplesFPKMValue_module_scores.csv,36,36,36,36,retained,score_available_and_mapping_pass,36

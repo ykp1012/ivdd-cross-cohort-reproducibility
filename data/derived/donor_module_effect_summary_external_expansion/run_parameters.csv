@@ -1,0 +1,14 @@
+parameter_class,parameter_name,parameter_value,sha256,notes
+score_table_input,score_table,.\data\derived\module_scores_recomputed\GSE229711\GSE229711_RAW_module_scores.csv,6b51d904d68434266df35ef6e58c850387f5f7eb38239489b53263dd4b90654a,Exact input table used for donor/library-level summarization.
+score_table_input,score_table,.\data\derived\module_scores_recomputed\GSE230808\GSE230808_RAW_module_scores.csv,0a6575f7948a0b1c74a16fcf5e9a128cab9332a032b8e692b0195b2b0fa03335,Exact input table used for donor/library-level summarization.
+score_table_input,score_table,.\data\derived\module_scores_recomputed\GSE244889\GSE244889_RAW_module_scores.csv,800832450aee6dca0a5b8c547100e65dc8506c407538ac7419d14e98624c1a56,Exact input table used for donor/library-level summarization.
+score_table_input,score_table,.\data\derived\module_scores_external\GSE153066\GSE153066_AllSample.counts_module_scores.csv,31a6cb8db3815a2d9742d8ef2fe7e4f1f0102af27b52c4a5fe781e9158351183,Exact input table used for donor/library-level summarization.
+score_table_input,score_table,.\data\derived\module_scores_external\GSE165722\GSE165722_RAW_module_scores.csv,49ac4cd36758aa424e458bb479f3fde8607a70bc12aa31fe414729f0f66a75e3,Exact input table used for donor/library-level summarization.
+score_table_input,score_table,.\data\derived\module_scores_external\GSE186542\GSE186542_gene_expression_module_scores.csv,7e7e36c85d742d7efa8f72a79b7af9c0519355659376d52e882e800213d1cca5,Exact input table used for donor/library-level summarization.
+score_table_input,score_table,.\data\derived\module_scores_external\GSE167931\GSE167931_AllSamplesFPKMValue_module_scores.csv,40094b6fe62250acac37fd8af287c4f2e801dbb794f8cf7df4588d48ee49d979,Exact input table used for donor/library-level summarization.
+analysis_script,summarize_donor_module_effects.py,.\scripts\summarize_donor_module_effects.py,f3f71b88e2ac67a80181bda5af68b5788ff742d5583d4b2e13c1cf548806e4f4,Exact implementation used to create this summary directory.
+analysis_setting,summary_contract,post_hoc_external_expansion,,This non-authoritative 24-effect staging summary supplies study-level inputs to S8. It does not replace or revise data/derived/donor_module_effect_summary/.
+analysis_setting,confidence_level,0.95000000,,Used for Welch and percentile bootstrap intervals.
+analysis_setting,bootstrap_replicates,10000,,Independent resampling within donor/library contrast arms.
+analysis_setting,random_seed,20260814,,Cohort/compartment/module-specific deterministic seeds are derived from this root seed.
+analysis_setting,min_mapped_fraction,0.80000000,,Score rows below this pre-specified module mapping threshold are excluded with an audit row.
