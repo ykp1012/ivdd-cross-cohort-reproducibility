@@ -1,0 +1,9 @@
+Cohort and role,Recorded group structure,Observation key,Keys after score filter,Exact ledger matches,Identity check,Interpretation boundary,Confirmatory status
+"GSE230809 AF + NP
+exploratory (AF 3 vs 10; NP 3 vs 8)","healthy n=3 per compartment; diseased AF n=10, NP n=8",donor_id,24,24,pass_exact_identity_crosswalk,one exploratory parent project; age/disease confounded; no confirmatory inference,No current cohort is confirmatory eligible
+"GSE244889 NP
+directional support (4 vs 3)",MDD n=4; SDD n=3,presumed donor/library key,7,7,pass_exact_identity_crosswalk,directional effect/stability display only; no confirmatory validation,No current cohort is confirmatory eligible
+"GSE153066 NP
+count-level support (8 vs 8)",relatively normal n=8; degenerated n=8,presumed donor/library key,16,16,pass_exact_identity_crosswalk,external count-level support with contributor-retained cells; clinical source and age are confounded; no age-independent or causal interpretation,No current cohort is confirmatory eligible
+"GSE165722 NP
+score-level support (4 vs 4)",mild n=4; severe n=4,presumed donor-level sample key,8,8,pass_exact_identity_crosswalk,"normalized-count score-level direction/stability only; source-publication severity grouping used because GEO and source-publication grades differ; no raw-count, cell-level, confirmatory, causal, or age-adjusted inference",No current cohort is confirmatory eligible

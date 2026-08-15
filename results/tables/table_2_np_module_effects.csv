@@ -1,0 +1,33 @@
+Cohort and role,Pre-specified module,Lower vs higher group n,Higher-minus-lower score difference,Welch 95% interval,Bootstrap 95% interval,Observed direction,LODO direction retention (fraction),Cohort limitation
+"GSE230809 NP
+exploratory (3 vs 8)",ECM / collagen remodeling,3 vs 8,0.3454,"[0.1747, 0.5162]","[0.2100, 0.4777]",positive higher recorded severity,1.000,"One parent project; age and disease status are fully confounded, and the healthy group has n=3 per compartment. Exploratory effect-size and stability display only."
+"GSE230809 NP
+exploratory (3 vs 8)",Inflammatory / NF-kB,3 vs 8,-0.1109,"[-0.4111, 0.1892]","[-0.2597, 0.0220]",negative lower recorded severity,1.000,"One parent project; age and disease status are fully confounded, and the healthy group has n=3 per compartment. Exploratory effect-size and stability display only."
+"GSE230809 NP
+exploratory (3 vs 8)",Hypoxia / oxidative stress,3 vs 8,0.1776,"[-0.0245, 0.3798]","[0.0429, 0.3159]",positive higher recorded severity,1.000,"One parent project; age and disease status are fully confounded, and the healthy group has n=3 per compartment. Exploratory effect-size and stability display only."
+"GSE230809 NP
+exploratory (3 vs 8)",Disc matrix homeostasis,3 vs 8,0.0533,"[-1.4481, 1.5546]","[-0.6308, 0.6477]",positive higher recorded severity,0.636,"One parent project; age and disease status are fully confounded, and the healthy group has n=3 per compartment. Exploratory effect-size and stability display only."
+"GSE244889 NP
+directional support (4 vs 3)",ECM / collagen remodeling,4 vs 3,0.9703,"[0.1359, 1.8048]","[0.4351, 1.4525]",positive higher recorded severity,1.000,"Four MDD versus three SDD title-derived presumed donor/library keys; directional support only, not confirmatory validation."
+"GSE244889 NP
+directional support (4 vs 3)",Inflammatory / NF-kB,4 vs 3,0.0493,"[-0.7993, 0.8979]","[-0.5353, 0.5421]",positive higher recorded severity,0.571,"Four MDD versus three SDD title-derived presumed donor/library keys; directional support only, not confirmatory validation."
+"GSE244889 NP
+directional support (4 vs 3)",Hypoxia / oxidative stress,4 vs 3,0.2381,"[-0.1314, 0.6076]","[0.0627, 0.4468]",positive higher recorded severity,1.000,"Four MDD versus three SDD title-derived presumed donor/library keys; directional support only, not confirmatory validation."
+"GSE244889 NP
+directional support (4 vs 3)",Disc matrix homeostasis,4 vs 3,0.0365,"[-0.6158, 0.6887]","[-0.2642, 0.2597]",positive higher recorded severity,0.714,"Four MDD versus three SDD title-derived presumed donor/library keys; directional support only, not confirmatory validation."
+"GSE153066 NP
+count-level support (8 vs 8)",ECM / collagen remodeling,8 vs 8,-0.4034,"[-1.2846, 0.4778]","[-1.1428, 0.3559]",negative lower recorded severity,1.000,"Eight relatively-normal versus eight degenerated presumed sample/library keys. The GEO-retained dense count matrix follows contributor cell filtering; clinical source and age are confounded with disease status. External support only, not an age-independent or causal contrast."
+"GSE153066 NP
+count-level support (8 vs 8)",Inflammatory / NF-kB,8 vs 8,0.6801,"[0.1030, 1.2572]","[0.2321, 1.1719]",positive higher recorded severity,1.000,"Eight relatively-normal versus eight degenerated presumed sample/library keys. The GEO-retained dense count matrix follows contributor cell filtering; clinical source and age are confounded with disease status. External support only, not an age-independent or causal contrast."
+"GSE153066 NP
+count-level support (8 vs 8)",Hypoxia / oxidative stress,8 vs 8,0.0882,"[-0.2166, 0.3929]","[-0.1689, 0.3534]",positive higher recorded severity,1.000,"Eight relatively-normal versus eight degenerated presumed sample/library keys. The GEO-retained dense count matrix follows contributor cell filtering; clinical source and age are confounded with disease status. External support only, not an age-independent or causal contrast."
+"GSE153066 NP
+count-level support (8 vs 8)",Disc matrix homeostasis,8 vs 8,-0.0472,"[-1.0034, 0.9090]","[-0.7787, 0.7971]",negative lower recorded severity,0.625,"Eight relatively-normal versus eight degenerated presumed sample/library keys. The GEO-retained dense count matrix follows contributor cell filtering; clinical source and age are confounded with disease status. External support only, not an age-independent or causal contrast."
+"GSE165722 NP
+score-level support (4 vs 4)",ECM / collagen remodeling,4 vs 4,1.6784,"[-1.2319, 4.5887]","[-0.0590, 3.2456]",positive higher recorded severity,1.000,"Four mild versus four severe presumed sample keys, with severity assigned from the source-publication grouping because GEO and source-publication grades differ. GEO describes supplied values as normalized counts; this cohort supports only score-level direction and leave-one-key-out stability, not raw-count, cell-level, confirmatory, causal, or age-adjusted inference."
+"GSE165722 NP
+score-level support (4 vs 4)",Inflammatory / NF-kB,4 vs 4,-0.0170,"[-0.9172, 0.8831]","[-0.6222, 0.5794]",negative lower recorded severity,0.500,"Four mild versus four severe presumed sample keys, with severity assigned from the source-publication grouping because GEO and source-publication grades differ. GEO describes supplied values as normalized counts; this cohort supports only score-level direction and leave-one-key-out stability, not raw-count, cell-level, confirmatory, causal, or age-adjusted inference."
+"GSE165722 NP
+score-level support (4 vs 4)",Hypoxia / oxidative stress,4 vs 4,0.4346,"[-0.0619, 0.9310]","[0.1178, 0.7405]",positive higher recorded severity,1.000,"Four mild versus four severe presumed sample keys, with severity assigned from the source-publication grouping because GEO and source-publication grades differ. GEO describes supplied values as normalized counts; this cohort supports only score-level direction and leave-one-key-out stability, not raw-count, cell-level, confirmatory, causal, or age-adjusted inference."
+"GSE165722 NP
+score-level support (4 vs 4)",Disc matrix homeostasis,4 vs 4,0.7625,"[-1.2004, 2.7253]","[-0.3666, 1.8854]",positive higher recorded severity,1.000,"Four mild versus four severe presumed sample keys, with severity assigned from the source-publication grouping because GEO and source-publication grades differ. GEO describes supplied values as normalized counts; this cohort supports only score-level direction and leave-one-key-out stability, not raw-count, cell-level, confirmatory, causal, or age-adjusted inference."
