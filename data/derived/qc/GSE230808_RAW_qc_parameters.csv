@@ -1,0 +1,2 @@
+archive,ledger,min_genes,min_umi,max_mt_pct,cell_output,scope
+data\raw\GSE230808_RAW.tar,data\derived\GSE230809_discovery_raw_data_ledger.csv,200,500,20.0,data\derived\qc\GSE230808_RAW_cell_qc.tsv.gz,streaming technical QC before anatomical/resident annotation

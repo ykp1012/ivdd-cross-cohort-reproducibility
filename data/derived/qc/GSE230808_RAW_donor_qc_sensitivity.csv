@@ -1,0 +1,19 @@
+dataset,donor_id,compartment,disease_state,total_cells,qc_cells,resident_threshold_20_pass,resident_threshold_30_pass,resident_threshold_50_pass,interpretation
+GSE230808,SP20.002,AF,diseased,496,488,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP20.006,AF,diseased,1473,1307,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.007,AF,diseased,5994,5976,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.007,NP,diseased,4391,4317,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.011,AF,diseased,2389,2357,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.011,NP,diseased,2053,2016,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.013,AF,diseased,4706,4691,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.013,NP,diseased,3030,2872,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.014,AF,diseased,3420,2989,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.014,NP,diseased,3765,3702,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.016,AF,diseased,1599,955,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.016,NP,diseased,2407,1678,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.017,AF,diseased,11239,8619,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP21.017,NP,diseased,3597,2849,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP22.002,AF,diseased,4489,3924,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP22.002,NP,diseased,4677,3551,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP22.003,AF,diseased,5400,4795,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE230808,SP22.003,NP,diseased,14746,14502,True,True,True,pre-annotation QC cells; not resident-cell count

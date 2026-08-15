@@ -1,0 +1,7 @@
+dataset,donor_id,compartment,disease_state,total_cells,qc_cells,resident_threshold_20_pass,resident_threshold_30_pass,resident_threshold_50_pass,interpretation
+GSE229711,SP21.015,AF,healthy,8364,7714,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE229711,SP21.015,NP,healthy,1872,1702,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE229711,SP21.018,AF,healthy,9480,8553,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE229711,SP21.018,NP,healthy,16302,15405,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE229711,SP22.001,AF,healthy,8135,5762,True,True,True,pre-annotation QC cells; not resident-cell count
+GSE229711,SP22.001,NP,healthy,8185,7349,True,True,True,pre-annotation QC cells; not resident-cell count
