@@ -1,8 +1,7 @@
 # Release Metadata Checklist
 
-Confirmed author and license metadata are recorded below for the public v1.0.0
-release. The GitHub owner and final public URL remain pending because they must
-be selected from the account used to create the repository.
+Confirmed author, license, and repository metadata are recorded below for the
+public v1.0.0 release.
 
 ## Repository
 
@@ -52,9 +51,8 @@ documentation only, not to third-party GEO or Ensembl data.
   reproducibility
 - Related publication DOI or preprint DOI, if available:
 
-The completed metadata files are CITATION.cff and .zenodo.json. The optional
-CITATION.cff `repository-code` field is intentionally omitted until the final
-GitHub URL exists; no placeholder URL is published. After creating the GitHub
-repository, record its owner and URL above, create the v1.0.0 GitHub release,
-and enable or trigger Zenodo archiving. Zenodo then assigns a version DOI; its
-concept DOI should be used when citing all future versions.
+The completed metadata files are CITATION.cff and .zenodo.json, and
+CITATION.cff now records the public repository URL. The v1.0.0 GitHub release
+still needs to be created and then enabled or triggered for Zenodo archiving.
+Zenodo will assign a version DOI; its concept DOI should be used when citing
+all future versions.
