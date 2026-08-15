@@ -1,0 +1,5 @@
+package	version	role
+R	4.4.1	Runtime
+metafor	4.8.0	S7-S9 random-effects synthesis
+digest	0.6.37	SHA-256 provenance records
+jsonlite	2.0.0	JSON manifests
