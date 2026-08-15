@@ -1,0 +1,2 @@
+matrix,ledger,module_config,min_mapped_fraction,genes_seen,libraries,formula,score_direction,inference_unit,matrix_boundary
+data\raw\GSE153066_AllSample.counts.tsv.gz,data\derived\GSE153066_donor_ledger.csv,config\program_modules.json,0.8,36847,16,mean over mapped genes of log1p(1e6 * sample-level gene sum / sample-level total supplied UMI),higher expression of listed genes means a higher module score; no clinical benefit or harm is implied,presumed donor/library; cells nested,GEO-retained dense matrix; no cell-level inference
