@@ -1,0 +1,4 @@
+retained_cell_threshold,child_series,libraries_scored,libraries_passing_threshold,libraries_failing_threshold,minimum_observed_source_restricted_qc_passing_cells,threshold_run_status,inference_unit,effect_summary_path
+20,GSE229711;GSE230808,24,24,0,471,all_libraries_scored,donor/library; cells are nested observations,.\data\derived\module_scores_sensitivity\threshold_20\effect_summary\donor_module_effects.csv
+30,GSE229711;GSE230808,24,24,0,471,all_libraries_scored,donor/library; cells are nested observations,.\data\derived\module_scores_sensitivity\threshold_30\effect_summary\donor_module_effects.csv
+50,GSE229711;GSE230808,24,24,0,471,all_libraries_scored,donor/library; cells are nested observations,.\data\derived\module_scores_sensitivity\threshold_50\effect_summary\donor_module_effects.csv

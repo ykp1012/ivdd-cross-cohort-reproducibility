@@ -1,0 +1,5 @@
+artifact,generated_by_this_invocation,purpose
+supplementary_table_s1_gse251686_exploratory_effects.csv,true,Isolated GSE251686 sensitivity artifact; not a default-summary input.
+README.md,true,Isolated GSE251686 sensitivity artifact; not a default-summary input.
+run_artifacts.csv,true,Isolated GSE251686 sensitivity artifact; not a default-summary input.
+run_manifest.json,true,Isolated GSE251686 sensitivity artifact; not a default-summary input.

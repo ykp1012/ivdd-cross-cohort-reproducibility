@@ -1,0 +1,22 @@
+{
+  "default_cross_cohort_summary_inclusion": false,
+  "generated_artifact_path_root": ".\\results",
+  "generated_artifact_sha256": {
+    "supplementary_figures\\supplementary_figure_s1_gse251686_exploratory_sensitivity.pdf": "a60712ebf402c874cff4ebbeecbf058c203828180cc45b97e9b19838570ef16b",
+    "supplementary_figures\\supplementary_figure_s1_gse251686_exploratory_sensitivity.png": "55b281cfe2cb9c0cc165ece9af5d007ac0a671b4e4aa467efd5fb178142ce0f0",
+    "supplementary_tables\\README.md": "7a48c21f0fc40e3f891b9629aba48e753e3c9686b927e30b3ac0c3698045d915",
+    "supplementary_tables\\supplementary_table_s1_gse251686_exploratory_effects.csv": "f7f3c829a7063269929a46153c6c9f6aea1889ce7861a5d9a6f46d97a9341470"
+  },
+  "main_figure_or_table_inclusion": false,
+  "no_hypothesis_tests_or_p_values": true,
+  "schema_version": 1,
+  "self_referential_hash_exclusions": [
+    "run_artifacts.csv",
+    "run_manifest.json"
+  ],
+  "source_default_cross_cohort_summary_inclusion": false,
+  "source_package": ".\\data\\derived\\GSE251686_exploratory_scores",
+  "source_package_run_manifest_sha256": "d57d655936c1213f6b2d14141c423c698290b393549eaf6c019eb9d1bdc3e497",
+  "source_permanent_exclusion": "GSM7986002",
+  "unit_of_observation": "presumed sample/library key; cells nested"
+}
