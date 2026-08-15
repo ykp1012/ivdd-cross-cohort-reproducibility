@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "species": "Homo sapiens",
+  "purpose": "Pre-specified support and exclusion panels for conservative AF/NP resident-cell annotation",
+  "score_definition": "For each cell and panel, mean log1p(CPM) over measured genes in the fixed panel; CPM uses that cell's total UMI. Detection counts are reported separately.",
+  "rules": {
+    "minimum_positive_detected": 1,
+    "minimum_resident_score": 0.2,
+    "minimum_nonresident_score": 2.0,
+    "minimum_nonresident_detected": 3,
+    "resident_margin": 0.2,
+    "note": "Thresholds are fixed before expression results. Anatomical source from GEO remains primary; marker disagreement is reported but does not overwrite source. AF and NP support coexpression is not a doublet criterion because both are disc matrix programs. A doublet_or_mixed label requires source-matched resident support together with a nonresident exclusion panel."
+  },
+  "panels": {
+    "AF_support": [
+      "COL1A1", "COL1A2", "COL3A1", "COL5A1", "COL5A2", "COL6A1", "COL6A2", "COL6A3",
+      "DCN", "LUM", "LOX", "LOXL2", "FN1", "SPARC", "POSTN", "TNC", "ELN"
+    ],
+    "NP_support": [
+      "ACAN", "COL2A1", "SOX9", "KRT19", "CILP", "COMP", "MATN3", "HAPLN1",
+      "COL9A1", "COL9A2", "COL9A3", "FMOD", "BGN", "HAS2", "B3GAT1"
+    ],
+    "immune_exclusion": [
+      "PTPRC", "LST1", "TYROBP", "FCER1G", "CD74", "HLA-DRA", "CD3D", "CD3E", "TRBC1",
+      "NKG7", "MS4A1", "CD79A", "CD14", "LYZ", "CTSS", "AIF1", "CST3"
+    ],
+    "endothelial_exclusion": [
+      "PECAM1", "VWF", "EMCN", "KDR", "ENG", "RAMP2", "PLVAP", "ESAM", "CDH5"
+    ],
+    "mural_exclusion": [
+      "RGS5", "CSPG4", "MCAM", "ACTA2", "TAGLN", "PDGFRB", "NOTCH3"
+    ],
+    "erythroid_exclusion": [
+      "HBB", "HBA1", "HBA2", "ALAS2", "GYPA", "SLC4A1", "EPB42"
+    ]
+  }
+}

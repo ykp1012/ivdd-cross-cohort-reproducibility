@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "species": "Homo sapiens",
+  "score_direction": "higher expression of listed genes means a higher module score; no clinical benefit or harm is implied",
+  "modules": [
+    {
+      "module_id": "ecm_collagen_remodeling",
+      "label": "ECM and collagen remodeling",
+      "source_class": "Reactome/KEGG extracellular-matrix and collagen pathways plus a fixed IVDD ECM core",
+      "source_ids": ["KEGG:hsa04512", "Reactome:R-HSA-1474244", "PMID:38403470"],
+      "genes": [
+        "ADAMTS4", "ADAMTS5", "COL1A1", "COL1A2", "COL3A1", "COL5A1", "COL5A2", "COL6A1", "COL6A2", "COL6A3",
+        "DCN", "FN1", "LOX", "LOXL2", "LUM", "MMP2", "MMP3", "MMP9", "MMP13", "POSTN", "SPARC", "TIMP1", "TIMP2", "TNC"
+      ]
+    },
+    {
+      "module_id": "inflammatory_nfkb",
+      "label": "Inflammatory and NF-kB response",
+      "source_class": "KEGG NF-kB signaling and Reactome inflammatory signaling core",
+      "source_ids": ["KEGG:hsa04064", "Reactome:R-HSA-4459899", "PMID:37216089"],
+      "genes": [
+        "CCL2", "CCL5", "CXCL8", "FOS", "IKBKB", "IKBKG", "IL1B", "IL6", "JUN", "NFKB1", "NFKB2", "NFKBIA",
+        "NLRP3", "RELA", "RELB", "STAT3", "TICAM1", "TLR2", "TLR4", "TNF", "TNFRSF1A"
+      ]
+    },
+    {
+      "module_id": "hypoxia_oxidative_stress",
+      "label": "Hypoxia and oxidative stress",
+      "source_class": "KEGG HIF-1 signaling and oxidative-stress response core",
+      "source_ids": ["KEGG:hsa04066", "Reactome:R-HSA-2262749", "PMID:34825784"],
+      "genes": [
+        "BNIP3", "CA9", "EGLN1", "EPAS1", "GCLM", "GPX1", "HIF1A", "HMOX1", "LDHA", "NFE2L2", "NQO1",
+        "PDK1", "PRDX1", "SLC2A1", "SOD1", "SOD2", "TXN", "VEGFA"
+      ]
+    },
+    {
+      "module_id": "disc_matrix_homeostasis",
+      "label": "Disc matrix homeostasis and synthesis",
+      "source_class": "Fixed NP/disc matrix synthesis core from the source NP transcriptome and cartilage-matrix literature",
+      "source_ids": ["PMID:34825784", "PMID:24914695", "PMID:38403470"],
+      "genes": [
+        "ACAN", "B3GAT1", "BGN", "CILP", "COL2A1", "COL9A1", "COL9A2", "COL9A3", "COMP", "FMOD", "HAPLN1",
+        "HAS2", "KRT19", "MATN3", "SOX9"
+      ]
+    }
+  ]
+}
