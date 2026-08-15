@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-08-14 08:59:41 UTC",
+  "purpose": "Exploratory cohort-level random-effects meta-analysis of four default human NP score cohorts.",
+  "scope": {
+    "cohorts": ["GSE230809_discovery", "GSE244889_directional", "GSE153066_support", "GSE165722_score_level"],
+    "modules": ["ecm_collagen_remodeling", "inflammatory_nfkb", "hypoxia_oxidative_stress", "disc_matrix_homeostasis"],
+    "excluded": "GSE251686 is excluded; GSM7986002 remains permanently excluded.",
+    "primary_analysis": "SMDH, REML, Knapp-Hartung; all included cohorts are non-confirmatory.",
+    "primary_result_table": "./results/supplementary_tables/supplementary_table_s7b_np_meta_analysis_primary_results.csv"
+  },
+  "software": {
+    "R": "R version 4.4.1 (2024-06-14 ucrt)",
+    "metafor": "4.8.0",
+    "digest": "0.6.37",
+    "jsonlite": "2.0.0"
+  },
+  "input_sha256": {
+    "data/derived/donor_module_effect_summary/donor_module_group_descriptives.csv": "3bdef4ce1bf46f1286a9c28c7fea6f40a96f2d5857d411937e15219888d702b9",
+    "data/derived/donor_module_effect_summary/donor_module_effects.csv": "55c866313da00663fb471218035db02079e73f2ca6392209dc3139a610405203",
+    "scripts/run_np_exploratory_meta_analysis.R": "0391baa0618fd2e8e7cefd4d311a428d965b53cfa326ca9bfd3d53a0f740aa80"
+  },
+  "generated_artifact_sha256": {
+    "results/supplementary_tables/supplementary_table_s7a_np_meta_analysis_study_effects.csv": "a420e1792dea38887a059e303a2350fe9532ea75f4634e23616472f3a0de94f6",
+    "results/supplementary_tables/supplementary_table_s7b_np_meta_analysis_primary_results.csv": "b37134aeef221598361100abf7ab928728d3bea164e9388ff5d1f5f41b34f504",
+    "results/supplementary_tables/supplementary_table_s7c_np_meta_analysis_model_sensitivity.csv": "8c70438ba3ebb6337a9b652f068818f8be3f3e3e0907f59d3342878d0cebef8a",
+    "results/supplementary_tables/supplementary_table_s7d_np_meta_analysis_leave_one_cohort_out.csv": "35a7ad815c71c2c2dd1b6978d5a1ea5ba2804c30e55e2e7e3844eedadfb7e4d1",
+    "data/derived/np_exploratory_meta_analysis/run_parameters.csv": "d709f7d9c79c0f5f56476a3d432b3a1e60d5c5e51a8ef089febb41015a23a8a6",
+    "data/derived/np_exploratory_meta_analysis/README.md": "5362fb1eaa5f62ecd61a0b5d017333810f1f062d3a7849371c394ff623477a59",
+    "results/supplementary_figures/supplementary_figure_s3_np_exploratory_random_effects_meta_analysis.pdf": "0e277214de111ea61548bcb80b331a9f9d947f99fe8debd6f773675f1a470dac",
+    "results/supplementary_figures/supplementary_figure_s3_np_exploratory_random_effects_meta_analysis.png": "1b09e47fbf2a8d4d231640acb5ec8f0ad998f32a2ddf49f3e1129c051a48811f"
+  }
+}
