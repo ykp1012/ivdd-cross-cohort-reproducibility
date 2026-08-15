@@ -1,0 +1,4 @@
+retained_cell_threshold,reference_threshold,score_rows_reference_30,score_rows_current,matched_score_rows,reference_only_score_rows,current_only_score_rows,maximum_absolute_module_score_delta_vs_30,included_cell_counts_identical_vs_30,score_identity_status
+20,30,96,96,96,0,0,0,true,identical_score_keys_and_values
+30,30,96,96,96,0,0,0,true,identical_score_keys_and_values
+50,30,96,96,96,0,0,0,true,identical_score_keys_and_values

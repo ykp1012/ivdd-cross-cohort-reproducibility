@@ -1,0 +1,9 @@
+artifact,generated_by_this_invocation,purpose
+README.md,true,See sensitivity documentation.
+library_threshold_eligibility.csv,true,See sensitivity documentation.
+threshold_run_summary.csv,true,See sensitivity documentation.
+threshold_score_identity.csv,true,See sensitivity documentation.
+discovery_effects_by_retained_cell_threshold.csv,true,See sensitivity documentation.
+threshold_effect_stability_vs_30.csv,true,See sensitivity documentation.
+input_artifact_hashes.csv,true,See sensitivity documentation.
+run_artifacts.csv,true,See sensitivity documentation.
