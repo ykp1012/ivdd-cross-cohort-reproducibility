@@ -1,0 +1,7 @@
+dataset,donor_id,compartment_source,disease_state,qc_cells,source_nonexcluded_cells,source_nonexcluded_threshold_20_pass,source_nonexcluded_threshold_30_pass,source_nonexcluded_threshold_50_pass,ambiguous_cells,mixed_or_nonresident_cells,nonresident_immune_cells,nonresident_endothelial_cells,nonresident_mural_cells,nonresident_erythroid_cells
+GSE229711,SP21.015,AF,healthy,7714,6725,True,True,True,0,989,0,0,0,0
+GSE229711,SP21.015,NP,healthy,1702,1650,True,True,True,0,52,0,0,0,0
+GSE229711,SP21.018,AF,healthy,8553,7577,True,True,True,0,976,0,0,0,0
+GSE229711,SP21.018,NP,healthy,15405,15257,True,True,True,0,110,0,0,38,0
+GSE229711,SP22.001,AF,healthy,5762,4518,True,True,True,0,1244,0,0,0,0
+GSE229711,SP22.001,NP,healthy,7349,7070,True,True,True,0,268,0,0,11,0
