@@ -1,0 +1,7 @@
+gsm,outer_member,genes_tsv_rows,genes_tsv_two_column_check_pass,unique_ensembl_feature_ids,duplicate_ensembl_feature_ids,unique_gene_symbols,duplicate_gene_symbols,barcodes_tsv_rows,unique_barcodes,duplicate_barcodes,recommended_cross_library_feature_key,identifier_check_pass
+GSM7986001,GSM7986001_NP1_EmptyDrops_CR_matrix.tar.gz,27770,True,27770,0,27770,0,15448,15448,0,Ensembl feature ID,True
+GSM7986002,GSM7986002_NP3_EmptyDrops_CR_matrix.tar.gz,31158,True,31158,0,31158,0,12275,12275,0,Ensembl feature ID,True
+GSM7986003,GSM7986003_NP4_EmptyDrops_CR_matrix.tar.gz,27567,True,27567,0,27567,0,5932,5932,0,Ensembl feature ID,True
+GSM7986004,GSM7986004_NP5_EmptyDrops_CR_matrix.tar.gz,30035,True,30035,0,30035,0,7356,7356,0,Ensembl feature ID,True
+GSM7986005,GSM7986005_NP6_EmptyDrops_CR_matrix.tar.gz,20847,True,20847,0,20847,0,2433,2433,0,Ensembl feature ID,True
+GSM7986006,GSM7986006_NP9_EmptyDrops_CR_matrix.tar.gz,58336,True,58336,0,56813,1523,7995,7995,0,Ensembl feature ID,True

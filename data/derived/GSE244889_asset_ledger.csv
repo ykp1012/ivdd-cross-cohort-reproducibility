@@ -1,0 +1,5 @@
+dataset,asset,url,bytes,sha256,asset_role,audited_at_utc
+GSE244889,GSE244889_RAW.tar,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244889/suppl/GSE244889_RAW.tar,546119680,3bf1617b85e2fa08e2074c0de8fc87aaeb97c42b29bbbce77634f2c43d35c9b1,raw archive; 7 scRNA 10x triples,2026-08-13T17:27:46.232364+00:00
+GSE244889,GSE244889_family.soft.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244889/soft/GSE244889_family.soft.gz,3329,877bb67d2d22e35e28b047857a08999c73355d6a69b733141d2f7e2b81f0bdcb,GEO SOFT metadata,2026-08-13T17:27:46.232364+00:00
+GSE244889,GSE244889_FPKM.txt.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244889/suppl/GSE244889_FPKM.txt.gz,647864,6fcccafc760c5b70e55c322a07c94ff5493e36cbb0c50cca9bd1a7ee209c7ea4,processed bulk FPKM table,2026-08-13T17:27:46.232364+00:00
+GSE244889,filelist.txt,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244889/suppl/filelist.txt,1564,df08d97fc3417ce809927c65437356cfb1cbd9e562ff57d2b1792ba9f8883635,GEO raw-archive member listing,2026-08-13T17:27:46.232364+00:00

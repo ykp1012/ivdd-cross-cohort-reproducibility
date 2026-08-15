@@ -1,0 +1,7 @@
+archive,archive_sha256,archive_bytes,inspected_at_utc,member,bytes,is_file
+GSE251686_RAW.tar,7b95a5eec4aa249ebdc3eb93caa5a7f9b0ab0c4cebceaa440cfe4fdb3a31a4b4,287856640,2026-08-13T17:10:40.703668+00:00,GSM7986001_NP1_EmptyDrops_CR_matrix.tar.gz,56534222,True
+GSE251686_RAW.tar,7b95a5eec4aa249ebdc3eb93caa5a7f9b0ab0c4cebceaa440cfe4fdb3a31a4b4,287856640,2026-08-13T17:10:40.703668+00:00,GSM7986002_NP3_EmptyDrops_CR_matrix.tar.gz,86430966,True
+GSE251686_RAW.tar,7b95a5eec4aa249ebdc3eb93caa5a7f9b0ab0c4cebceaa440cfe4fdb3a31a4b4,287856640,2026-08-13T17:10:40.703668+00:00,GSM7986003_NP4_EmptyDrops_CR_matrix.tar.gz,33056491,True
+GSE251686_RAW.tar,7b95a5eec4aa249ebdc3eb93caa5a7f9b0ab0c4cebceaa440cfe4fdb3a31a4b4,287856640,2026-08-13T17:10:40.703668+00:00,GSM7986004_NP5_EmptyDrops_CR_matrix.tar.gz,57016649,True
+GSE251686_RAW.tar,7b95a5eec4aa249ebdc3eb93caa5a7f9b0ab0c4cebceaa440cfe4fdb3a31a4b4,287856640,2026-08-13T17:10:40.703668+00:00,GSM7986005_NP6_EmptyDrops_CR_matrix.tar.gz,10375910,True
+GSE251686_RAW.tar,7b95a5eec4aa249ebdc3eb93caa5a7f9b0ab0c4cebceaa440cfe4fdb3a31a4b4,287856640,2026-08-13T17:10:40.703668+00:00,GSM7986006_NP9_EmptyDrops_CR_matrix.tar.gz,44431184,True

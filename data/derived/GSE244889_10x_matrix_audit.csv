@@ -1,0 +1,8 @@
+dataset,gsm,donor_id,compartment,disease_state,barcode_member,feature_member,matrix_member,features,barcodes,matrix_rows,matrix_columns,matrix_nnz,dimension_check_pass,matrix_status
+GSE244889,GSM7831813,Pa-17F,NP,MDD,GSM7831813_Pa-17F_barcodes.tsv.gz,GSM7831813_Pa-17F_features.tsv.gz,GSM7831813_Pa-17F_matrix.mtx.gz,37487,5437,37487,5437,14087585,True,raw 10x Cell Ranger MTX triple reported by GEO
+GSE244889,GSM7831814,Pb-55F,NP,MDD,GSM7831814_Pb-55F_barcodes.tsv.gz,GSM7831814_Pb-55F_features.tsv.gz,GSM7831814_Pb-55F_matrix.mtx.gz,37487,9784,37487,9784,17930863,True,raw 10x Cell Ranger MTX triple reported by GEO
+GSE244889,GSM7831815,Pab-24M,NP,MDD,GSM7831815_Pab-24M_barcodes.tsv.gz,GSM7831815_Pab-24M_features.tsv.gz,GSM7831815_Pab-24M_matrix.mtx.gz,37487,7657,37487,7657,20773030,True,raw 10x Cell Ranger MTX triple reported by GEO
+GSE244889,GSM7831816,Pab-30M,NP,MDD,GSM7831816_Pab-30M_barcodes.tsv.gz,GSM7831816_Pab-30M_features.tsv.gz,GSM7831816_Pab-30M_matrix.mtx.gz,37487,7376,37487,7376,20929429,True,raw 10x Cell Ranger MTX triple reported by GEO
+GSE244889,GSM7831817,Pc-41M,NP,SDD,GSM7831817_Pc-41M_barcodes.tsv.gz,GSM7831817_Pc-41M_features.tsv.gz,GSM7831817_Pc-41M_matrix.mtx.gz,37487,5525,37487,5525,19940041,True,raw 10x Cell Ranger MTX triple reported by GEO
+GSE244889,GSM7831818,Pd-62F,NP,SDD,GSM7831818_Pd-62F_barcodes.tsv.gz,GSM7831818_Pd-62F_features.tsv.gz,GSM7831818_Pd-62F_matrix.mtx.gz,37487,11562,37487,11562,27834569,True,raw 10x Cell Ranger MTX triple reported by GEO
+GSE244889,GSM7831819,Pd-59F,NP,SDD,GSM7831819_Pd-59F_barcodes.tsv.gz,GSM7831819_Pd-59F_features.tsv.gz,GSM7831819_Pd-59F_matrix.mtx.gz,37487,7923,37487,7923,20868370,True,raw 10x Cell Ranger MTX triple reported by GEO

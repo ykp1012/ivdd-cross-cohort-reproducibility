@@ -1,0 +1,12 @@
+metric,value
+samples,24
+biological_donors,13
+healthy_donors,3
+advanced_donors,10
+AF_NP_paired_donors,11
+healthy_paired_donors,3
+advanced_paired_donors,8
+AF_libraries,13
+NP_libraries,11
+sexes,M
+age_disease_relation,fully confounded in discovery contrast

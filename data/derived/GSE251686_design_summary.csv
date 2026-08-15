@@ -1,0 +1,15 @@
+metric,value
+samples_total_geo_records,6
+samples_included_downstream,5
+samples_excluded_stream_integrity,1
+mild_presumed_sample_keys_total,3
+severe_presumed_sample_keys_total,3
+mild_presumed_sample_keys_included,2
+severe_presumed_sample_keys_included,3
+excluded_gsms,GSM7986002
+pre_qc_barcodes_all_geo_records,51439
+pre_qc_barcodes_included_downstream,39164
+patient_identity_status,not exposed; GSM/title used as presumed sample/library key
+individual_grade_status,not exposed at GSM level in GEO/SOFT
+platform_status,GEO/SOFT: GEXSCOPE/Singleron and CeleScope; linked paper results: 10X Genomics (conflict documented)
+permitted_role,"incomplete, non-balanced (mild n=2 versus severe n=3) exploratory NP severity direction check only"

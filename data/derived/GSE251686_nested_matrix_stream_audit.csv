@@ -1,0 +1,9 @@
+gsm,outer_member,outer_member_bytes,outer_typeflag,outer_pax_headers,nested_matrix_member,nested_matrix_bytes,nested_matrix_typeflag,nested_matrix_pax_headers,features_from_genes_tsv,barcodes_from_barcodes_tsv,matrix_rows,matrix_columns,matrix_nnz_header,coordinate_lines_observed,valid_coordinate_lines,malformed_coordinate_lines,out_of_range_coordinates,negative_values,zero_values,nul_bytes,nul_lines,first_nul_offset,last_nul_offset,first_malformed_offset,last_malformed_offset,first_nul_context_before,first_nul_context_after,last_coordinate_byte_offset,dimension_match,line_count_matches_header,valid_count_matches_header,text_integrity_pass
+GSM7986001,GSM7986001_NP1_EmptyDrops_CR_matrix.tar.gz,56534222,0,{},./matrix.mtx,241726224,0,{},27770,15448,27770,15448,19176437,19176437,19176437,0,0,0,0,0,0,,,,,,,241726224,True,True,True,True
+GSM7986002,GSM7986002_NP3_EmptyDrops_CR_matrix.tar.gz,86430966,0,{},./matrix.mtx,375023279,0,{},31158,12275,31158,12275,30130524,29680844,29680843,1,0,0,0,5471800,1,32193536,37665335,32193534,32193534,"1453 10066 1
+14","125 4
+",375023279,True,False,False,False
+GSM7986003,GSM7986003_NP4_EmptyDrops_CR_matrix.tar.gz,33056491,0,{},./matrix.mtx,138492331,0,{},27567,5932,27567,5932,11399727,11399727,11399727,0,0,0,0,0,0,,,,,,,138492331,True,True,True,True
+GSM7986004,GSM7986004_NP5_EmptyDrops_CR_matrix.tar.gz,57016649,0,{},./matrix.mtx,239060858,0,{},30035,7356,30035,7356,19591322,19591322,19591322,0,0,0,0,0,0,,,,,,,239060858,True,True,True,True
+GSM7986005,GSM7986005_NP6_EmptyDrops_CR_matrix.tar.gz,10375910,0,{},./matrix.mtx,42747543,0,{},20847,2433,20847,2433,3626556,3626556,3626556,0,0,0,0,0,0,,,,,,,42747543,True,True,True,True
+GSM7986006,GSM7986006_NP9_EmptyDrops_CR_matrix.tar.gz,44431184,0,{},./matrix.mtx,192508916,0,{},58336,7995,58336,7995,15162098,15162098,15162098,0,0,0,0,0,0,,,,,,,192508916,True,True,True,True

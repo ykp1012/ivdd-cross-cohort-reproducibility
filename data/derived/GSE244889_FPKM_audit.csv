@@ -1,0 +1,2 @@
+header_first_field,sample_columns,bulk_columns,gene_rows,unique_gene_identifiers,duplicate_gene_identifier_count,duplicate_gene_identifiers,row_width_mismatches,non_numeric_values,empty_values,negative_values,minimum_numeric_value,maximum_numeric_value,matrix_status,eligible_for_raw_count_pseudobulk,eligible_for_single_cell_aggregation
+gene expression,6,S11_II_L1|S12_II_L2|S13_II_L1|S14_III_L3|S15_IV_L2|S16_IV_L1,19834,19832,2,1-Mar|2-Mar,0,0,0,0,0.0,13.17202721,GEO-supplied processed FPKM table; not a raw-count matrix,False,False

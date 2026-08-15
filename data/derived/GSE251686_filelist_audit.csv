@@ -1,0 +1,8 @@
+filelist_entry_type,name,published_time,published_bytes,published_type,observed_bytes,exists_in_downloaded_archive,byte_size_match
+Archive,GSE251686_RAW.tar,11/14/2024 13:18:08,287856640,TAR,287856640,True,True
+File,GSM7986001_NP1_EmptyDrops_CR_matrix.tar.gz,12/20/2023 11:29:21,56534222,TAR,56534222,True,True
+File,GSM7986002_NP3_EmptyDrops_CR_matrix.tar.gz,12/20/2023 11:29:42,86430966,TAR,86430966,True,True
+File,GSM7986003_NP4_EmptyDrops_CR_matrix.tar.gz,12/20/2023 11:29:51,33056491,TAR,33056491,True,True
+File,GSM7986004_NP5_EmptyDrops_CR_matrix.tar.gz,12/20/2023 11:30:06,57016649,TAR,57016649,True,True
+File,GSM7986005_NP6_EmptyDrops_CR_matrix.tar.gz,12/20/2023 11:30:10,10375910,TAR,10375910,True,True
+File,GSM7986006_NP9_EmptyDrops_CR_matrix.tar.gz,12/20/2023 11:30:22,44431184,TAR,44431184,True,True

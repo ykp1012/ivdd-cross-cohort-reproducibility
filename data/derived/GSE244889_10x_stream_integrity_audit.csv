@@ -1,0 +1,8 @@
+dataset,gsm,matrix_member,matrix_header,matrix_rows,matrix_columns,matrix_nnz_header,coordinate_lines_observed,empty_coordinate_line_detected,final_coordinate_line_terminated,full_gzip_stream_read,nnz_line_count_pass,matrix_header_matches_prior_audit,stream_integrity_pass
+GSE244889,GSM7831813,GSM7831813_Pa-17F_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,5437,14087585,14087585,False,True,True,True,True,True
+GSE244889,GSM7831814,GSM7831814_Pb-55F_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,9784,17930863,17930863,False,True,True,True,True,True
+GSE244889,GSM7831815,GSM7831815_Pab-24M_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,7657,20773030,20773030,False,True,True,True,True,True
+GSE244889,GSM7831816,GSM7831816_Pab-30M_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,7376,20929429,20929429,False,True,True,True,True,True
+GSE244889,GSM7831817,GSM7831817_Pc-41M_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,5525,19940041,19940041,False,True,True,True,True,True
+GSE244889,GSM7831818,GSM7831818_Pd-62F_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,11562,27834569,27834569,False,True,True,True,True,True
+GSE244889,GSM7831819,GSM7831819_Pd-59F_matrix.mtx.gz,%%MatrixMarket matrix coordinate integer general,37487,7923,20868370,20868370,False,True,True,True,True,True

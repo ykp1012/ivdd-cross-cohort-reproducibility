@@ -1,0 +1,2 @@
+filelist_asset,archive_name_matches,archive_bytes_listed,archive_bytes_actual,archive_size_matches,filelist_member_count,tar_file_member_count,missing_from_filelist_count,missing_from_tar_count,member_size_mismatch_count,missing_from_filelist,missing_from_tar,member_size_mismatches,filelist_tar_crosscheck_pass
+GSE244889_filelist.txt,True,546119680,546119680,True,21,21,0,0,0,,,,True
